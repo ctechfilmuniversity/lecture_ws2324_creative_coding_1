@@ -29,6 +29,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  \| Film University Babe
         * [Criteria](#criteria)
     * [Materials](#materials)
         * [Structure](#structure)
+    * [Policies](#policies)
     * [Inclusivity Statement](#inclusivity-statement)
     * [Stress Culture](#stress-culture)
     * [Last But Not Least](#last-but-not-least)
@@ -136,7 +137,7 @@ As assignments and tasks are flexible you are equally responsible to get the bes
 * You can also base your project on a tutorial from the internet. The result of the tutorial will not be enough however, you have to develop the project somehow further and make it your own. 
 * The (hard) deadline for the final exercise is **February 29th**.
 * The official work period for the final assignment is Jan. 16th - Feb. 29th. The deadline for the final project is February, 29th.
-    * The deadline for the final project is strict and for a late submission, I reduce 1 point per day.
+    * The deadline for the final project is strict and for a late submission, I reduce 5% of your points per day.
     * If you are sick within the official work period you can get a deadline extension based on a doctor's note ("Attest").
 
 ## Evaluation
@@ -185,6 +186,15 @@ Materials are structured as follows:
 * In [`Submissions`](04_submissions) you submit your work each week to the folder with your last name and a folder with the session index. You will submit all assignments to the same folder (the one with your last name).
     * Please do not submit files larger than 25 MB. Upload large files, e.g., in an Owncloud folder. Follow the same folder naming scheme as in Github.
 
+## Policies
+
+* Plagiarism: in programming the concept of plagiarism is somewhat elusive. We are working with open source tools and libraries, building upon the work of a multitude of people. You are encouraged and expected to tap into resources available online, copy-paste and tweak code you may not fully understand. However it is categorically forbidden to outsource work to people outside the course (e.g. your friend from CS) or plagiarize assignments as a whole. 
+* Absences: you are responsible for what happens in class whether you are here or not. I will not repeat content for you that you have missed because you were not in class.
+* Participation: you are invited, encouraged, and expected to engage actively in discussion, reflection and activities.
+* Net addiction: you can exist for few hours without chatting, texting or emailing. I will notice if you don't pay attention and prefer that you only come to class if you are actually pay attention. 
+* Recording: There are no recordings of the classes. No student may record any classroom activity without express written consent from me. If you have (or think you may have) a disability such that you need to record or tape classroom activities, you should contact the Office of Disability Resources to request an appropriate accommodation.
+
+[*Adapted from P. Pedercini with permission.*]
 
 ## Inclusivity Statement
 
