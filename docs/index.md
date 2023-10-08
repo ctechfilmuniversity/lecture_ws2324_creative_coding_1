@@ -88,30 +88,31 @@ Please note that topics are subject to change!
 
 ## Method of Instruction
 
-This class is organized as an experimental lab rather than a formal lecture in order to accommodate different levels of programming experiences. For improving your skills it is up to you to take on new technical and creative challenges while completing each week's exercise. Even though the class covers a range of topics, for the majority of learnings, especially regarding text-based programming, it is up to you to find the relevant steps to take.
+This class is organized as an experimental lab rather than a formal lecture to accommodate different levels of programming experiences. For expanding your skills, it is up to you to take on new technical and creative challenges while completing each week's exercise. Even though the class covers a range of topics, for the majority of learnings, especially regarding text-based programming, it is up to you to find the relevant steps to take.
 
 The lab is structured as follows:
 
 * Each session includes a topic (e.g. emergence, connection), some tech (e.g. p5, three.js, frontend, backend) and an open-ended programming task.
 * We will discuss the topic and tech in class and there might be some additional content in a script, covering theory and giving contexts.
 * You are encouraged to further explore the topic and tech based on your individual motivation and prior knowledge.
-* Each week you have to work on a programming assignment, which is related to the session's topic and tech.
+* Each week, you have to work on a programming assignment, which is related to the session's topic and tech.
 * There might be some class time dedicated to working on the assignments.
 
 The attendance of the lectures is not mandatory. However, I do not guarantee that all lecture content is given by the scripts and exercises.
 
+
 ### Organisation
 
 * We will start with a new session in class. 
-* As assignment you have to work through all tasks of the sessions on your own time.
+* As assignment, you have to work through all tasks of the sessions on your own time.
 * You need to upload the session's assignments by the given deadline (usually two days before the next session). 
-* I will allow a grace period for fixing issues on a case-by-case basis. However, for your submission to count you have to have at least 50% of the points by the given deadline. If you do not attend class you must upload your results by the deadline.
-* The following class we will have a look at your submissions and wrap up the session.
+* I will allow a grace period for addressing issues on a case-by-case basis. However, for your submission to count, you have to have at least 50% of the points by the given deadline. If you do not attend class, you must upload your results by the deadline.
+* The following class, we will take a look at your submissions and wrap up the session.
 
 
 ### Assignments
 
-Each week you get an open-ended programming task, which always includes the following three components:
+Each week, you get an open-ended programming task, which always includes the following three components:
 
 1. Conceptualization
 2. Form & Design
@@ -122,23 +123,26 @@ Your submission does not necessarily need to be a completed project. This also m
 
 Unless stated otherwise:
 
-* For each week you have to submit something self-contained, as weekly assignments are not meant to be connected.
-* You are free in choosing a programming language and environment as long as you can full-fill the task. However, programming has to be text-based.
-* An assignment concludes with the question about you own personal learnings and how you challenged yourself in that session.
-* You are allowed to work in groups for the practical assignments but each group member has to submit its own learnings.
+* For each week, you have to submit something self-contained, as weekly assignments are not meant to be connected.
+* You are free to choose a programming language and environment as long as you can full-fill the task. However, programming has to be text-based.
+* An assignment concludes with the question about your own personal learnings and how you challenged yourself in that session.
+* You are allowed to work in groups for the practical assignments, but each group member has to submit its own learnings.
 
-As assignments and tasks are flexible you are equally responsible to get the best out of this lecture! 
+As assignments and tasks are flexible, you are equally responsible to get the best out of this lecture! 
+
+
 
 ## Final Exercise
 
 * The last exercise is mandatory to pass the class.
 * You are required to work on the final exercise for about **24 h**, meaning three days of work.
 * The project should refer to one of the lecture topics. You must come up with your own task.
-* You can also base your project on a tutorial from the internet. The result of the tutorial will not be enough however, you have to develop the project somehow further and make it your own. 
+* You can also base your project on a tutorial from the internet. The result of the tutorial will not be enough though, you have to develop the project somehow further and make it your own. 
 * The (hard) deadline for the final exercise is **February 29th**.
 * The official work period for the final assignment is Jan. 16th - Feb. 29th. The deadline for the final project is February, 29th.
     * The deadline for the final project is strict and for a late submission, I reduce 5% of your points per day.
-    * If you are sick within the official work period you can get a deadline extension based on a doctor's note ("Attest").
+    * If you are sick within the official work period, you can get a deadline extension based on a doctor's note ("Attest").
+
 
 ## Evaluation
 
@@ -189,11 +193,13 @@ Materials are structured as follows:
 
 ## Policies
 
-* Plagiarism: in programming the concept of plagiarism is somewhat elusive. We are working with open source tools and libraries, building upon the work of a multitude of people. You are encouraged and expected to tap into resources available online, copy-paste and tweak code you may not fully understand. However it is categorically forbidden to outsource work to people outside the course (e.g. your friend from CS) or plagiarize assignments as a whole. 
+* Plagiarism: in programming, the concept of plagiarism is somewhat elusive. We are working with open-source tools and libraries, building upon the work of a multitude of people. You are encouraged and expected to tap into resources available online, copy-paste and tweak code you may not fully understand. However, it is categorically forbidden to outsource work to people outside the course (e.g. your friend from CS) or plagiarize assignments as a whole. 
 * Absences: you are responsible for what happens in class whether you are here or not. I will not repeat content for you that you have missed because you were not in class.
 * Participation: you are invited, encouraged, and expected to engage actively in discussion, reflection and activities.
-* Net addiction: you can exist for few hours without chatting, texting or emailing. I will notice if you don't pay attention and prefer that you only come to class if you are actually pay attention. 
-* Recording: There are no recordings of the classes. No student may record any classroom activity without express written consent from me. If you have (or think you may have) a disability such that you need to record or tape classroom activities, you should contact the Office of Disability Resources to request an appropriate accommodation.
+* Net addiction: you can exist for a few hours without chatting, texting or emailing. I will notice if you don't pay attention and prefer that you only come to class if you are actually paying attention. 
+* Recording: There are no recordings of the classes. No student may record any classroom activity without express written consent from me. If you have (or think you may have) a disability such that you need to record or tape classroom activities, get in touch with me.
+
+
 
 [*Adapted from P. Pedercini with permission.*]
 
