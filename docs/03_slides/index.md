@@ -14,3 +14,4 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 In this section you find all slides for the course.
 
+* [Session 01](cc1_ws2324_01_slides.html)
