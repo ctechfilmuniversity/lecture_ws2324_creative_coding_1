@@ -2,7 +2,7 @@
 layout: default
 title: Slides
 nav_order: 4
-has_children: true
+has_children: false
 ---
 
 # Creative Coding I

@@ -132,7 +132,7 @@ As assignments and tasks are flexible you are equally responsible to get the bes
 ## Final Exercise
 
 * The last exercise is mandatory to pass the class.
-* About **24 h**, meaning three days of work, are required for the final exercise.
+* You are required to work on the final exercise for about **24 h**, meaning three days of work.
 * The project should refer to one of the lecture topics. You must come up with your own task.
 * You can also base your project on a tutorial from the internet. The result of the tutorial will not be enough however, you have to develop the project somehow further and make it your own. 
 * The (hard) deadline for the final exercise is **February 29th**.
@@ -182,6 +182,7 @@ Materials are structured as follows:
 * In [`Sessions`](01_sessions) you find a [folder](01_sessions/01_intro/) with an index for each week (session = week).
     * The [README.md](01_sessions/01_intro/README.md) in each session folder gives you an overview of all the readings, assignments, practical exercises, etc. that you have to do for that week - it is your todo list! I recommend to start your work with going through that file.
 * In [`Scripts`](02_scripts) you find all scripts.
+    * Scripts are organized by topic. This means that I might continuously add content to an existing script, e.g. the setup script, across multiple sessions.
 * In [`Slides`](03_slides) you find all slides.
 * In [`Submissions`](04_submissions) you submit your work each week to the folder with your last name and a folder with the session index. You will submit all assignments to the same folder (the one with your last name).
     * Please do not submit files larger than 25 MB. Upload large files, e.g., in an Owncloud folder. Follow the same folder naming scheme as in Github.
