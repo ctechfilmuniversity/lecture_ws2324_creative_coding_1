@@ -8,7 +8,6 @@
     <title>Creative Coding I</title>
     <style>
         /* Local files */
-        @import url("remark/fonts.css");
         @import url("remark/style.css"); 
     </style>
 </head>
@@ -16,7 +15,8 @@
 <body>
     
     
-    <script>
+<!-- Legacy code?
+        <script>
         MathJax = {
             tex: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -34,24 +34,24 @@
     
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
     </script>
+     <script>
+            var hljs = remark.highlighter.engine;
+    </script> 
+-->
     
     <!-- Local copy -->
     <script src="remark/remark-latest.min.js"></script>
-    <script>
-        var hljs = remark.highlighter.engine;
-    </script>
+
     
-    <!-- Local copy -->
-    <script src="remark/remark.language.js"></script>
     <script>
         var slideshow = remark.create({
+            ratio: '16:9',
+            countIncrementalSlides: false,
             highlightStyle: 'monokai',
-            highlightLanguage: 'remark',
-            highlightLines: true,
+            highlightLanguage: 'javascript',
             sourceUrl: './cc1_ws2324_01_slides.md'
         });
     </script>
-    <!-- removed the google analytics script -->
 </body>
 
 </html>

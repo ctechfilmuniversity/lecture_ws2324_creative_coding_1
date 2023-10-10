@@ -10,183 +10,10 @@ class: center, middle, inverse
 
 #### Film University Babelsberg KONRAD WOLF
 
-
 ---
 
-### Lecture 1:  
-## Introduction
-
----
-layout: false
-
-## Introduction
-
-* Creative Coding
-* Examples
-* Learning Objectives
-* Technical Contexts
-
-
----
-template: inverse
-
-
-### How would you define creativity?
-
-???
-
-.task[ASK:]  
-
---
-
-### What does it mean to you to be creative?
-
-???
-
-.task[ASK:]  
-
-
---
-
-### What do you understand as coding?
-
-???
-
-.task[ASK:]  
-
-
-
----
-
-## Creative Coding
-
-???
-
-.task[COMMENT:]  
-
-* There are actually no fixed definitions of what *creative coding* means. 
---
-
-Within CTech we understand creative coding as:
-
---
-
-* producing something expressive rather than focussing on a practical use,
-
---
-
-* developing software beyond its standard usage scenarios, and
-
---
-* developing tools that help others to be creative.
-
-
-???
-
-.task[COMMENT:]  
-
-
-The last aspect of developing tools is somewhat detached and not necessarily part of a common understanding of creative coding. However, to us it is and equally important topic. We would like to integrate tool development into our portfolio with the goal of developing tools beyond the obvious and beyond practicability. When thinking about tool development in the context of web technologies, collaborative work and sharing ideas, content, etc. in the virtual space are exciting directions to go.
-
----
-
-## Creative Coding
-
-
-> Aesthetics, insight, joy, dialog, politics, collaboration, augmentation, emotion, perspectives, friendship,...
-
---
-
-*How could you focus with a software project on one of the above mentioned terms?*
-
-???
-
-.task[ASK:]  
-
----
-
-## Creative Coding
-
-???
-
-.task[COMMENT:]  
-
-
-Well, the above is still pretty vague. What does it mean specifically? The following aspects of content creation, data and media formats describe in more detail what can be considered as creative coding:
-
---
-1. Algorithms and generative systems to create graphics and sounds  
-    →  Procedural Generation and Simulation next term
-
---
-2. The usage of smart, meaningful or unusual data sources
-    * Images, video, sound
-    * Camera and microphone
-    * Online resources such as Twitter and Instagram
-    * Mobile devices as sensors
-    * ...
-
---
-3. The employment of various output formats
-    * Web
-    * From large-scale such as buildings to small-scale such as smart watches
-    * Multi-screen setups for example with mobile devices
-    * ...
-
----
-
-## Creative Coding
-
-For your creative work, I would like to encourage you to use the following as guidance:
-
-> What do we have available and what can we do with it beyond the obvious?
-
-
-
----
-template: inverse
-
-## Design and Communication
-
----
-
-## Design and Communication
-
-
-One of our main means of communication is the web. We read, experience, share and create all kinds of data with the potential community of all web users. 
-
---
-
-*Who are all web users?*
-
-???
-
-.task[ASK:]  
-
----
-
-## Design and Communication
-
-* Different forms of communication, be it through visuals, text or data
-
---
-* Applications focus on a creative context
-
---
-* Web technologies
-
---
-* JavaScript
-
---
-* Complex problem solving, creativity
-
-
----
-template: inverse
-
-### Creative Coding: Design and Communication
-## Examples
+.center[<img src="../02_scripts/img/01/cash_01.jpg" alt="cash_01" style="width:90%;">  
+[Chris Milk. 2012. [*The Johnny Cash Project*](https://www.radicalmedia.com/work/the-johnny-cash-project/). Radical Media.]]
 
 ---
 
@@ -208,7 +35,9 @@ template: inverse
 *  Dazu hier ein Video in dem der Erschaffer der Seite, Medienkünstler Aaron Koblin, der die Benutzung der Webseite kurz erklärt…
   
 
---
+---
+
+## The Johnny Cash Project
 
 [![Cash Project Website](../02_scripts/img/01/video_extern.png)](https://owncloud.gwdg.de/index.php/s/IVvTrSu2GL4gTvX)  
 [[Cash Project - Website]](https://owncloud.gwdg.de/index.php/s/IVvTrSu2GL4gTvX)
@@ -218,7 +47,9 @@ template: inverse
 * Und durch diese mögliche Interaktion mit der Webseite, wird die Animation zu einer dynamischen sich kontinuierlich entwickelnden Datenbank an möglichen Outputs und die Website zu einem erzählenden und Menschen verbindenden Medium.
 * Dazu hier noch mal ein kurzes Video, in dem Teilnehmer ihre Erfahrung kommentieren.
 
---
+---
+
+## The Johnny Cash Project
 
 [![Cash Project Comments](../02_scripts/img/01/video_extern.png)](https://owncloud.gwdg.de/index.php/s/LYx9pV3hPcUzChu)  
 [[Cash Project - Comments]](https://owncloud.gwdg.de/index.php/s/LYx9pV3hPcUzChu)
@@ -226,26 +57,215 @@ template: inverse
 ???
 
 * Schlüsselaussage: die Webseite, also die Application erzeugt “A living, breathing memorial” an dem wir alle teilhaben können.
-* Dieses Projekt zeigt wie durch den durchdachten und künstlerischen Einsatz von Technik, die Technik selbst eine ganz besondere Bedeutung bekommt und wie in diesem Fall nicht nur eine interessante Animation produziert sondern eine tiefergehende und gemeinschaftliche Erfahrung für den User oder das Publikum geschaffen wird.
+* Dieses Projekt zeigt wie durch den durchdachten und kreativen Einsatz von Technik, die Technik selbst eine ganz besondere Bedeutung bekommt und wie in diesem Fall nicht nur eine interessante Animation produziert sondern eine tiefergehende und gemeinschaftliche Erfahrung für den User oder das Publikum geschaffen wird.
+
+
+---
+# *How would you define creativity?*
+
+
 
 ---
 
-## The Johnny Cash Project
+# *How are you creative?*
 
-Website: [The Johnny Cash Project](http://www.thejohnnycashproject.com/)
 
-Is unfortunately outdated and needs Flash...
 
 ---
+
+# *How would you define coding?*
+
+---
+
+# *How do you code?*
+
+
+---
+
+# Creative Coding 🤩
+
+---
+
+### Lecture 1
+
+# Introduction
+
+---
+layout: false
+
+## Introduction
+
+--
+* Creative Coding
+
+--
+* Examples
+
+--
+* Learning Objectives
+
+--
+* Tools and Environments 
+
+--
+* Administration
+
+
+
+---
+.header[Introduction]
+
+## Creative Coding
+
+???
+
+.task[COMMENT:]  
+
+* There are actually no fixed definitions of what *creative coding* means. 
+* Within CTech we understand creative coding as:
+
+--
+
+* Producing something expressive rather than focussing on a practical use
+
+--
+
+* Developing software beyond its standard usage scenarios
+
+--
+* Developing tools that help others to be creative
+
+???
+
+.task[COMMENT:]  
+
+
+The last aspect of developing tools is somewhat detached and not necessarily part of a common understanding of creative coding. However, to us it is and equally important topic. We would like to integrate tool development into our portfolio with the goal of developing tools beyond the obvious and beyond practicability. When thinking about tool development in the context of web technologies, collaborative work and sharing ideas, content, etc. in the virtual space are exciting directions to go.
+
+---
+.header[Introduction]
+
+## Creative Coding
+
+
+> Aesthetics, insight, joy, dialog, politics, collaboration, augmentation, emotion, perspectives, friendship,...
+
+--
+
+*How could you focus with a software project on one of the above mentioned terms?*
+
+???
+
+.task[ASK:]  
+
+---
+.header[Introduction | Creative Coding]
+
+## Practical Approaches
+
+???
+
+.task[COMMENT:]  
+
+
+Well, the above is still pretty vague. What does it mean specifically? The following aspects of content creation, data and media formats describe in more detail what can be considered as creative coding:
+
+--
+* Algorithms to create graphics and sound  
+
+--
+    →  Procedural Generation and Simulation next term
+
+---
+.header[Introduction | Creative Coding]
+
+## Practical Approaches
+
+* Algorithms to create graphics and sound  
+* Smart, meaningful or unusual data sources
+
+--
+    * Images, video, sound
+    * Camera and microphone
+    * Online resources such as Twitter, Instagram and ChatGPT
+    * Mobile devices as sensors
+    * ...
+
+---
+.header[Introduction | Creative Coding]
+
+## Practical Approaches
+
+* Algorithms to create graphics and sound  
+* Smart, meaningful or unusual data sources
+* Diverse output formats
+
+--
+    * Web
+    * From large-scale such as buildings to small-scale such as smart watches
+    * Multi-screen setups for example with mobile devices
+    * ...
+
+---
+.header[Introduction | Creative Coding]
+
+## Practical Approaches
+
+
+???
+.task[COMMENT:]  
+
+For your creative work, I would like to encourage you to use the following as guidance:
+
+--
+
+> What do I have available and what can I do with it beyond the obvious?
+
+
+
+---
+template: inverse
+
+## Design and Communication
+
+---
+.header[Introduction]
+
+
+## Design and Communication
+
+
+We read, experience, share and create with the potential community of all web users. 
+  
+  
+--
+  
+  
+#### -> *Who are all web users?*
+
+--
+
+* We will focus on web-based programming environments
+
+
+---
+template: inverse
+
+### Creative Coding: Design and Communication
+## Examples
+
+
+---
+.header[Introduction | Examples]
 
 ## Paper Planes
 
-.center[[<img src="../02_scripts/img/01/paperplanes.png" alt="name" style="width:50%;">](https://paperplanes.world/)
+[<img src="../02_scripts/img/01/paperplanes.png" alt="paperplanes" style="width:35%;">  <img src="../02_scripts/img/01/paperplanes_02.png" alt="paperplanes_02" style="width:43%;">](https://paperplanes.world/) [[Paper Planes]](https://paperplanes.world/)
 
 <!-- [![paperplanes](../02_scripts/img/01/paperplanes.png)](https://paperplanes.world/)   -->
 <!-- [[Paper Planes]](https://paperplanes.world/) -->
 
-Website: [Paper Planes](https://paperplanes.world/)]
+
 
 <!-- 
 [![arms_exports](../02_scripts/img/01/arms_exports.png)](https://armsglobe.chromeexperiments.com/)  
@@ -258,23 +278,19 @@ Website: [Paper Planes](https://paperplanes.world/)]
 -->
 
 ---
+.header[Introduction | Examples]
 
 ## Cinemetrics
 
-.center[[<img src="../02_scripts/img/01/cinemetrics.png" alt="name" style="width:44%;">](https://cinemetrics.site/)
-
-
-Website: [Cinemetrics](https://cinemetrics.site/)]
+[<img src="../02_scripts/img/01/cinemetrics.png" alt="name" style="width:32%;">](https://cinemetrics.site/) [[Cinemetrics]](https://cinemetrics.site/)
 
 ---
+.header[Introduction | Examples]
 
 ## Unnumbered Sparks
 
-.center[[<img src="../02_scripts/img/01/sparks.png" alt="name" style="width:60%;">](https://www.youtube.com/watch?v=npjTmG-TBHQ&feature=emb_logo)
+[<img src="../02_scripts/img/01/sparks.png" alt="name" style="width:44%;">](https://www.youtube.com/watch?v=npjTmG-TBHQ&feature=emb_logo) [[Unnumbered Sparks]](http://www.aaronkoblin.com/project/unnumbered-sparks/)
 
-Website: [Unnumbered Sparks](http://www.aaronkoblin.com/project/unnumbered-sparks/)
-
-]
 
 
 ???
@@ -286,24 +302,34 @@ Website: [Unnumbered Sparks](http://www.aaronkoblin.com/project/unnumbered-spark
 ---
 template: inverse
 
-### What type of tools are possible through the web?
+### *What type of tools are possible through the web?*
+
+
+???
+.task[COMMENT:]  
+
+* What type of tools are possible through the web?
+
+
 
 ---
+.header[Introduction | Examples]
 
-## Miro Boards
+## Miro Board
 
-.center[[<img src="../02_scripts/img/01/miro_01.png" alt="name" style="width:80%;">](https://miro.com/)]
+[<img src="../02_scripts/img/01/miro_01.png" alt="name" style="width:60%;">](https://miro.com/)
 
 --
 
-*How to make this system more fun or more interesting? Any ideas?*
+> How to make this system more fun or more interesting? Any ideas?
 
 
 ---
+.header[Introduction | Examples]
 
 ## Cloud-Based Systems
 
-.center[<img src="../02_scripts/img/01/movielabs_01.png" alt="movielabs_01" style="width:44%;">]
+<img src="../02_scripts/img/01/movielabs_01.png" alt="movielabs_01" style="width:34%;"> [[Movielabs]](https://movielabs.com/wp-content/uploads/2019/12/movielabs_evolution_media_creation_2.0.pdf)
 
 ???
 .task[COMMENT:]
@@ -318,40 +344,41 @@ Der zweit Grund ist, dass wir tatsächlich schon mitten drin sind:
 Cloud-basierte Technologien und Prozess sind auf dem Vormarsch, nicht zu letzt weiter befeuert durch die Pandemie. Besagte Veröffentlichung beschreibt als erste von 10 Visionen für das Jahr 2030 folgendes: 
  
 ---
-.header[Filmdaten in der Cloud]
+.header[Introduction | Examples]
 
 ## Cloud-Based Systems
 
-.center[<img src="../02_scripts/img/01/movielabs_02.png" alt="movielabs_02" style="width:80%;">]
+> We can expect that media creation workflows will be cloud based with every file (from first script, to camera capture, VFX assest and audio tracks) stored in the cloud.
 
-.footnote[[The Evolution of Media Creation - A 10-Year Vision for the Future of Media Production, Post and Creative Technologies](https://movielabs.com/)]
+
+.footnote[[[The Evolution of Media Creation - A 10-Year Vision for the Future of Media Production, Post and Creative Technologies]](https://movielabs.com/)]
 
 ???
 .task[COMMENT:]
 
-We can expect that media creation workflows will be cloud based with every file (from frist script, to camera capture, VFX assest and audio tracks) stored in the cloud.
+
 
 Des weiteren wird gesagt dass sich alle Produktionsprozesse fundamental dahingehend verändern, dass Software zu den Daten kommt... und nicht genau umgekehrt wie es gerade ist.
 
 Also, wir wissen nun das Cloud-basierte Prozesse eng mit Fragen nach Kollaborationsmöglichkeiten zusammenhängen und dass es sich hier grundsätzlich um ein *hot topic* handelt mit dem es gilt sich auseinanderzusetzen.  
 
 ---
+.header[Introduction | Examples]
 
 ## Cloud-Based Systems
 
-> All assets are created or ingested straight into the cloud and do not need to be moved.
-  
+All assets are created or ingested straight into the cloud and do not need to be moved.
+
 --
-  
-   
-> Applications come to the data.
+
+#### -> Applications come to the data.
 
 
 ---
 template: inverse
 
-## Do you know of any creative coding examples? 
-### Please share!
+### Do you know of any creative coding examples? 
+## Please share!
 
 
 
@@ -377,92 +404,83 @@ template: inverse
 
 With this course, you will 
 
-* be able to write code and to develop software,
+--
+* advance your ability to write code,
 
 --
-* acquire fundamental knowledge of web technologies and develop these,
+* advance your ability to conceptualize and design,
 
 --
-* gain an overview of languages, techniques and algorithms in the context of *design and communication*
+* acquire fundamental knowledge of web technologies,
 
 --
 * use software development in a creative context, and
 
 --
-* implement specific design goals, and
-
---
-* build a portfolio page (most likely).
+* implement specific design goals.
 
 ---
+template:inverse 
 
 ## Student Work
 
-Here some impressions of student projects of the previous years:
 
+???
+.task[COMMENT:]  
 
----
-
-.center[<img src="../02_scripts/img/01/hw_06_stimberg.png" alt="name" style="width:60%;">  
-[by Simon Stimberg]]
+* Here some impressions of student projects of the previous years:
 
 ---
+template:inverse 
 
 .center[<img src="../02_scripts/img/01/hw_07_clausen.png" alt="name" style="width:100%;">  
 [by Phil Clausen]]
 
 
 ---
+template:inverse 
 
 ![hw_07_detje_01](../02_scripts/img/01/hw_07_detje_01.png)  
 [by Simon Detje]  
 
 ---
+template:inverse 
 
 ![hw_07_detje_02](../02_scripts/img/01/hw_07_detje_02.png)  
 [by Simon Detje]  
 
 ---
+template:inverse 
 
 .center[<img src="../02_scripts/img/01/hw_07_fontain.png" alt="name" style="width:100%;">  
 [by Mathias Fontain]]
 
 ---
+template:inverse 
 
 .center[<img src="../02_scripts/img/01/hw_07_traber_02.png" alt="name" style="width:100%;">  
 [by Markus Traber]]
 
 ---
+template:inverse 
 
 .center[<img src="../02_scripts/img/01/hw_07_traber_03.png" alt="name" style="width:100%;">  
 [by Markus Traber]]
 
 ---
-
-.center[<img src="../02_scripts/img/01/e02_t01_tariq_01.png" alt="name" style="width:50%;">  
-[by Zainab Tariq]]
-
----
-
-.center[<img src="../02_scripts/img/01/e02_t03_lai_01.png" alt="name" style="width:50%;">  
-[by Jacky Lai]]
-
----
-
-.center[<img src="../02_scripts/img/01/e02_t01_bischof_01.png" alt="name" style="width:100%;">  
-[by Denise Bischof] ]
-
----
+template:inverse 
 
 .center[<img src="../02_scripts/img/01/bischof.png" alt="name" style="width:100%;">  
 [by Denise Bischof] ]
 
 ---
+template:inverse 
 
 .center[<img src="../02_scripts/img/01/postergenerator.png" alt="name" style="width:100%;">  
 [by Anna Eschenbacher & Zainab Tariq] ]
 
 ---
+template:inverse 
 
 .center[<img src="../02_scripts/img/01/postergenerator_02.png" alt="name" style="width:100%;">  
 [by Anna Eschenbacher & Zainab Tariq] ]
@@ -483,9 +501,14 @@ template: inverse
 
 ## Tools and Environments
 
-1. Programming Languages and Frameworks
-2. Software
-3. Hardware
+--
+* Programming Languages and Frameworks
+
+--
+* Software
+
+--
+* Hardware
 
 ---
 .header[Tools and Environments]
@@ -503,7 +526,7 @@ template: inverse
 
 ## Programming in this Class
 
-The focus of this class is not "learn how to programm", however it is the goal that you all learn how to programm with this class 😁. 
+> The focus of this class is not "learn how to programm", however it is the goal that you all learn how to programm with this class 😁. 
 
 ???
 
@@ -524,12 +547,13 @@ The focus of this class is not "learn how to programm", however it is the goal t
 
 > A software framework is a universal, reusable software environment that provides particular functionality as part of a larger software platform to facilitate development of software applications, products and solutions.
 
+--
+
 * A special case of software libraries
 * Abstractions of code wrapped in a well-defined Application Programming Interface (API)
 * Contain some key distinguishing features
 
-[[Wikipedia: Software Framework]](https://en.wikipedia.org/wiki/Software_framework)  
-[[Stack Overflow: What is a software framework]](https://stackoverflow.com/questions/2964140/what-is-a-software-framework)
+.footnote[[[Wikipedia: Software Framework](https://en.wikipedia.org/wiki/Software_framework), [Stack Overflow: What is a software framework](https://stackoverflow.com/questions/2964140/what-is-a-software-framework)]]
 
 ---
 .header[Tools and Environments | Frameworks]
@@ -546,11 +570,14 @@ The focus of this class is not "learn how to programm", however it is the goal t
 --
 * Focus on simplicity for beginners but also suitable for prototyping for experts.
 
---
+---
+.header[Tools and Environments | Frameworks]
+
+## Processing & p5
 
 > Our mission is to promote software literacy within the visual arts, and visual literacy within technology-related fields, and to make these fields accessible to diverse communities. Our goal is to empower people of all interests and backgrounds to learn how to program and make creative work with code, especially those who might not otherwise have access to these tools and resources.
 
-[[The Processing Foundation]](https://processing.org/)[[Crouch, M. (2019). 6 ways to get into creative coding. Creative Bloq.]](https://www.creativebloq.com/features/6-ways-to-get-into-creative-coding)
+.footnote[[[The Processing Foundation](https://processing.org/), [Crouch, M. (2019). 6 ways to get into creative coding. Creative Bloq.](https://www.creativebloq.com/features/6-ways-to-get-into-creative-coding)]]
 
 ???
 
@@ -569,12 +596,12 @@ The focus of this class is not "learn how to programm", however it is the goal t
 
 JavaScript libraries directly relevant in the creative coding context (of course we will need base tools such as node.js as well):
 
-* [p5.js](https://p5js.org/examples/)
+* [**p5.js**](https://p5js.org/examples/)
+* [**three.js**](https://threejs.org/)
 * [sketch.js](http://soulwire.github.io/sketch.js/)
 * [D3](https://d3js.org/)
 * [PixiJS](http://www.pixijs.com/gallery)
 * [Phaser](https://phaser.io/)
-* [three.js](https://threejs.org/)
 * [babylonjs](https://www.babylonjs.com/)
 
 ???
@@ -586,10 +613,12 @@ JavaScript libraries directly relevant in the creative coding context (of course
 ---
 .header[Tools and Environments | Frameworks]
 
-### C++
+## C++
 
-* [OpenFrameworks](https://openframeworks.cc/)
+* [**OpenFrameworks**](https://openframeworks.cc/)
 * [Cinder](https://libcinder.org/gallery)  
+
+--
 → Creative Coding II next term: OpenFrameworks
 
 ---
@@ -597,12 +626,12 @@ JavaScript libraries directly relevant in the creative coding context (of course
 
 ## Software
 
-* [Touch Designer](https://www.derivative.ca/), [vvvv](https://vvvv.org/), [Pure Data](https://puredata.info/), [Max/MSP](https://cycling74.com/)
+* [**Touch Designer**](https://www.derivative.ca/), [vvvv](https://vvvv.org/), [Pure Data](https://puredata.info/), [**Max/MSP**](https://cycling74.com/)
 * [MadMapper](https://madmapper.com/), [Millumin 2](https://www.millumin.com/v2/index.php), [VDMX](https://vidvox.net/), [Resolume](https://resolume.com/)
 * [LUMOplay](https://www.lumoplay.com/)
-* [Unity](https://unity3d.com), [Unreal](https://www.unrealengine.com)
+* [**Unity**](https://unity3d.com), [**Unreal**](https://www.unrealengine.com)
 * [Reaper](https://www.reaper.fm/), [Ableton](https://www.ableton.com)
-* [Maya](https://www.autodesk.de/products/maya/overview), [Houdini](https://www.sidefx.com/), [3dsMax](https://www.autodesk.de/products/3ds-max/overview), [Cinema4D](https://www.maxon.net/de/produkte/cinema-4d/cinema-4d/), [ZBrush](https://pixologic.com/), [Allegorithmic](https://www.allegorithmic.com/)
+* [Maya](https://www.autodesk.de/products/maya/overview), [**Houdini**](https://www.sidefx.com/), [3dsMax](https://www.autodesk.de/products/3ds-max/overview), [Cinema4D](https://www.maxon.net/de/produkte/cinema-4d/cinema-4d/), [ZBrush](https://pixologic.com/), [Allegorithmic](https://www.allegorithmic.com/)
 * [Nuke](https://www.foundry.com/products/nuke), [After Effects](https://www.adobe.com/de/products/aftereffects.html), [Avid](https://www.avid.com/de/), [Premiere](https://www.adobe.com/products/premiere.html?promoid=PQ7SQBYQ&mv=other)
 * [Flash](https://en.wikipedia.org/wiki/Adobe_Flash), [Director MX](https://en.wikipedia.org/wiki/Adobe_Director)
 * [Photoshop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other), [Illustrator](https://www.adobe.com/products/illustrator.html?promoid=PGRQQLFS&mv=other), [InDesign](https://www.adobe.com/products/indesign.html)
@@ -614,13 +643,15 @@ JavaScript libraries directly relevant in the creative coding context (of course
 
 ## Hardware
 
-* Micro controllers
-* Sensors, e.g. depth
-* Projectors
-* VR, AR, MR devices
+* **Micro controllers**
+* **Sensors**, e.g. depth
+* **Projectors**
+* **VR**, AR, MR devices
 * Displays
 * Drone
 * Eye, brain tracker  
+
+--
 → Technology Introductions and Creative Technologies this term
 
 ---
@@ -633,7 +664,7 @@ Please refer to the [learning list about software](https://github.com/ctechfilmu
 ---
 template: inverse
 
-## Summary
+# Summary
 
 ???
 
@@ -643,7 +674,7 @@ As summary to this short introduction to creative coding, I like the following a
 
 ---
 
-.center[<img src="../02_scripts/img/01/ad_mercedes_2.jpg" alt="name" style="width:100%;">  
+.center[<img src="../02_scripts/img/01/ad_mercedes_2.jpg" alt="name" style="width:86%;">  
 [[I believe in ad]](http://www.ibelieveinadv.com/commons2/mercedes-benz-left-brain-right-brain-einstein.jpg)]
 
 ???
@@ -655,15 +686,14 @@ As summary to this short introduction to creative coding, I like the following a
 ---
 template: inverse
 
-# Course Setup
+# Administration
 
 
 ???
 .task[COMMENT:]  
 
-* Go through the readme
+* [Go through the readme](https://ctechfilmuniversity.github.io/lecture_ws2324_creative_coding_1/)
 
----
 
 ## Resources
 
@@ -674,5 +704,5 @@ template: inverse
 ---
 template: inverse
 
-# The End  
+# The End
 # 🚀
