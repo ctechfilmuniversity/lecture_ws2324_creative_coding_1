@@ -28,13 +28,13 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babel
         * [Learning Objectives](#learning-objectives)
     * [Tools and Environments](#tools-and-environments)
         * [Programming Languages](#programming-languages)
-            * [Programming in this Class](#programming-in-this-class)
         * [Frameworks](#frameworks)
             * [Processing \& p5](#processing--p5)
             * [JavaScript](#javascript)
             * [C++](#c)
         * [Software](#software)
         * [Hardware](#hardware)
+        * [Programming in this Class](#programming-in-this-class)
     * [Summary](#summary)
     * [Next](#next)
     * [Resources](#resources)
@@ -97,11 +97,14 @@ For your creative work, I would like to encourage you to use the following as gu
 
 ### Design and Communication
 
-One of our main means of communication is the web. We read, experience, share and create all kinds of data with the potential community of all web users. 
+
+The main goal of the course *Creative Coding I: Design and Communication* is for you to explore with text-based programming different forms of designs and communication, be it through visuals, audio, text or data. Applications focus on a creative context investigating aesthetics, human experiences and insight, rather than practicality. At the same time, you will strengthen your skills to solve complex problems in a structured manner and to advance your programming techniques.
+
+As one of our main means of communication is the web, we will focus on web-based programming environments such as p5, three.js and JavaScript in general. This gives us the unique opportunity to share our work easily and potentially with the community of all web users.  
+
+  
 
 *Who are all web users?*
-
-In summary, the course *Creative Coding I: Design and Communication* explores different forms of communication, be it through visuals, text or data. Applications focus on a creative context investigating aesthetics, experience and insight, rather than practicality. Students acquire fundamental knowledge about web technologies as communication framework and will be able to develop simple web applications from front- to backend. At the same time, students gain the skills to solve complex problems in a structured manner and to apply intermediate to advanced programming techniques in JavaScript.
 
 ### Examples
 
@@ -210,9 +213,9 @@ How to make this system more fun or more interesting? Any ideas?
 
 With this course, you will 
 
-* be able to write code and to develop software,
-* acquire fundamental knowledge of web technologies and develop these,
-* gain an overview of languages, techniques and algorithms in the context of *design and communication*
+* advance your ability to write code,
+* advance your ability to conceptualize and design,
+* acquire fundamental knowledge of web technologies,
 * use software development in a creative context, and
 * implement specific design goals.
 
@@ -272,16 +275,7 @@ As part of the introduction, I would like to give you an overview of possible la
 
 <!-- ??? Elaborate each choice -->
 
-#### Programming in this Class
 
-The focus of this class is not "learn how to program", however it is the goal that you all learn how to program with this class 😁. With this I mean that overall we do not cover language specifics in too much detail. Hopefully you build your programming skills through the practical assignments and looking into the details that you need for your assignment individually, making progress on your level.
-
-<!--
-The web development specifics I will cover as part of the class though such as:
-
-* Web server, asynchrone execution, ...
-* (Functional vs. Object Oriented programming)
--->
 
 ### Frameworks
 
@@ -365,6 +359,18 @@ Please refer to the [learning list about software](https://github.com/ctechfilmu
 * Drone
 * Eye, brain tracker  
 → Technology Introductions and Creative Technologies this term
+
+
+### Programming in this Class
+
+The focus of this class is not "learn how to program", however it is the goal that you all learn how to program with this class 😁. With this I mean that overall we do not cover language specifics in too much detail. Hopefully you build your programming skills through the practical assignments and looking into the details that you need for your assignment individually, making progress on your level.
+
+<!--
+The web development specifics I will cover as part of the class though such as:
+
+* Web server, asynchrone execution, ...
+* (Functional vs. Object Oriented programming)
+-->
 
 ----
 

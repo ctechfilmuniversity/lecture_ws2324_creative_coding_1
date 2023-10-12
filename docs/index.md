@@ -193,12 +193,11 @@ Materials are structured as follows:
 
 ## Policies
 
-* Plagiarism: in programming, the concept of plagiarism is somewhat elusive. We are working with open-source tools and libraries, building upon the work of a multitude of people. You are encouraged and expected to tap into resources available online, copy-paste and tweak code you may not fully understand. However, it is categorically forbidden to outsource work to people outside the course (e.g. your friend from CS) or plagiarize assignments as a whole. 
-* Absences: you are responsible for what happens in class whether you are here or not. I will not repeat content for you that you have missed because you were not in class.
-* Participation: you are invited, encouraged, and expected to engage actively in discussion, reflection and activities.
-* Net addiction: you can exist for a few hours without chatting, texting or emailing. I will notice if you don't pay attention and prefer that you only come to class if you are actually paying attention. 
-* Recording: There are no recordings of the classes. No student may record any classroom activity without express written consent from me. If you have (or think you may have) a disability such that you need to record or tape classroom activities, get in touch with me.
-
+* **Plagiarism**: in programming, the concept of plagiarism is somewhat elusive. We are working with open-source tools and libraries, building upon the work of a multitude of people. You are encouraged and expected to tap into resources available online, copy-paste and tweak code you may not fully understand. However, it is categorically forbidden to outsource work to people outside the course (e.g. your friend from CS) or copy & paste, meaning plagiarize, assignments as a whole from others . 
+* **Tools and utilities**: You are allowed to use any tools you want, also ChatGPT, but you are required to list and briefly describe the usage of such tools in your submission. Please make sure to utilize such tools for supporting your learning, not for just producing a result. 
+* **Absences**: you are responsible for what happens in class whether you are here or not. I will not repeat content for you that you have missed because you were not in class.
+* **Participation**: you are invited, encouraged, and expected to engage actively in discussion, reflection and activities. Also, you can exist for a few hours without chatting, texting or emailing on your notebook. I will notice if you don't pay attention and prefer that you only come to class if you are actually participating. 
+* **Recording**: There are no recordings of the classes. No student may record any classroom activity without express written consent from me. If you have a disability such that you think you need to record or tape classroom activities, get in touch with me.
 
 
 [*Adapted from P. Pedercini with permission.*]

@@ -16,14 +16,35 @@ Please complete this session by October 24. Going through the scripts and answer
 
 This session is all about diving into the topic of creative coding and getting ready for action 😊.
 
+* [Creative Coding I](#creative-coding-i)
+* [Session 01 (10 points)](#session-01-10-points)
+    * [Syllabus \& Administration](#syllabus--administration)
+        * [Task 01.01](#task-0101)
+    * [Topics](#topics)
+        * [Task 01.02](#task-0102)
+    * [Introduction](#introduction)
+        * [Task 01.02](#task-0102-1)
+        * [Task 01.03](#task-0103)
+        * [Task 01.04](#task-0104)
+            * [Option A](#option-a)
+            * [Option B](#option-b)
+    * [Setup](#setup)
+        * [Task 01.05](#task-0105)
+            * [Level 1](#level-1)
+            * [Level 2](#level-2)
+    * [Learnings](#learnings)
 
-## Task 01.01 - Syllabus & Administration
+## Syllabus & Administration
 
-* Read the [Syllabus](../../index.md) carefully and know how this class works and what I expect of you.
+Read the [Syllabus](../../index.md) carefully and know how this class works and what I expect of you.
 
+### Task 01.01
 
+Are there any open questions regarding the syllabus and the administration of this course? If so, please mention them next class.
 
-### Question 01.01 - Topics & Syllabus
+## Topics
+
+### Task 01.02
 
 Please answer the following questions truthfully so that I can setup the lecture accordingly.
 
@@ -37,7 +58,7 @@ Please answer the following questions truthfully so that I can setup the lecture
     * [ ] I don't know what that is
     * [ ] I know the concept but I have never implemented it
     * [ ] Yes
-* Overall, how would you rate your skill level of using JavaScript?
+* Overall, how would you rate your skill level of using web technologies, such as JavaScript?
     * [ ] Never done it
     * [ ] Novice
     * [ ] Intermediate
@@ -49,42 +70,41 @@ Please answer the following questions truthfully so that I can setup the lecture
     * [ ] Intermediate
     * [ ] Advanced
     * [ ] God-like
-* Are there any further topics that would interest you in the context of this lecture?
-* Is there anything that you would like me to know in regard to this class?
+* Are there any specific topics that would interest you in the context of this lecture and that haven't been mentioned so far? *If not, you can skip this question.*
+* Is there anything else that you would like me to know in regard to this class? *If not, you can skip this question.*
 
 
 
-## Task 01.02 - Introduction
+## Introduction
 
-* Read [Script 01 - Introduction](../../02_scripts/cc1_ws2324_01_intro_script.md)
+Recapture [Script 01 - Introduction](../../02_scripts/cc1_ws2324_01_intro_script.md).
 
+### Task 01.02
 
-## Question 01.02 - Introduction - Tools & Environments
+Are there any languages, tools or environments for creative coding that you know of and which are not included in the script? *If not, you can skip this question.*
 
-Are there any languages, tools or environments for creative coding that you know of and which are not included in the script?
+### Task 01.03
 
-*If not, you can skip this question.*
-
-## Question 01.03 - Introduction - Motivation & Examples
-
-Think a bit about your own personal motivation to learn creative coding and web technologies. What would you like to do with coding and the topics in this class? What kind of creative coding project is of interest to you? 
+Think a bit about your own personal motivation to learn creative coding. What would you like to do with coding and the topics in this class? What kind of creative coding project is of interest to you? 
 
 *Bullet points as answer are sufficient.*
 
-### Option A
+### Task 01.04
 
-Find an existing creative coding project that you like. Coding needs to play a significant role for the project, also ideally it is web based (this is not a hard requirement). Describe what you like about the project and how it motivates you for your learning process and your own work.
+#### Option A
 
-Submit a short text (~1000 characters) and any other material you like (weblinks, images, videos).
+Find an existing creative coding project that you like. Coding needs to play a significant role for the project, also ideally it is web based (this is not a hard requirement). Describe what you like about the project and why you think that the project represents creative coding.
 
-### Option B
+Submit a short text and any other material you like (weblinks, images, videos).
+
+#### Option B
 
 Come up with your own creative coding project idea of any scope (no worries, you don't have to actually do it). Coding needs to play a significant role for the project, also ideally it is web based (this is not a hard requirement). Describe why you think the idea represents creative coding and why you want to do it.
 
-Submit a short text (~1000 characters) and any other material you like (weblinks, images, videos).
+Submit a short text and any other material you like (weblinks, images, videos).
 
 
-## Task 01.03 - Setup
+## Setup
 
 In summary, for the lecture you will need to be able to work with
 
@@ -92,7 +112,7 @@ In summary, for the lecture you will need to be able to work with
 * GitHub, and
 * the console.
 
-For this session, our goal is for all of you to know how to access and work with the course material. This implies an understanding of Markdown and GitHub. We will not make use of a development environment and a terminal professionally just yet, but I recommend to go through those sections as well and to get ready using them.
+For this session, our goal is for all of you to know how to access and work with the course material. This implies an understanding of Markdown and GitHub and having a development environment ready.
 
 The scripts
 
@@ -102,23 +122,23 @@ The scripts
 will help you to get there. It is up to you to decide how much effort you need to put in, to get the setup working. 
 
 
-## Question 01.04 - Setup
+### Task 01.05
 
-### Level 1
+#### Level 1
 
-* With which tool / environment are you planning to work with GitHub?
+* With which tool / environment will you work with GitHub?
     * *I urge you to not simply use the basic functionality on the GitHub website (e.g. to upload a file). This might feel easier in the beginning but will not function later on...*
+* With which development environment will you use?
 * Are there any open questions for working with the course material and GitHub? 
-* With which development environment are you planning to work with?
 
-### Level 2
+#### Level 2
 
 * What is your setup and why does it work well for you?
 * Investigate something for your environment or GitHub that you haven't used before. Describe it briefly.
-* Please describe briefly at least two aspects, experiences, tips, etc. for working with GitHub that could be helpful to know for beginners.
+* Check with your classmates that do not have any experiences with GitHub yet and support them, if needed.
 * Are there any open questions for working with the course material and GitHub?
 
-## Question 01.05 - Learnings
+## Learnings
 
 Please summarize your personal learnings (text or bullet points - whatever you prefer). What was challenging for you in this session? How did you challenge yourself?
 

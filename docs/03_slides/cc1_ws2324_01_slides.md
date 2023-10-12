@@ -521,22 +521,6 @@ template: inverse
 * (Java)
 
 
----
-.header[Tools and Environments]
-
-## Programming in this Class
-
-> The focus of this class is not "learn how to programm", however it is the goal that you all learn how to programm with this class 😁. 
-
-???
-
-.task[COMMENT:]  
-
-* With this I mean that overall we do not cover language specifics in too much detail. 
-* Hopefully you build your programming skills through the practical assignments and looking into the details that you need for your assignment individually, making progress on your level.
-* The web development specifics I will cover as part of the class though such as:
-    * Web server, asynchrone execution, ... 
-    * (Functional vs. Object Oriented programming)
 
 ---
 .header[Tools and Environments]
@@ -660,6 +644,40 @@ JavaScript libraries directly relevant in the creative coding context (of course
 ## Tools and Environments 
 
 Please refer to the [learning list about software](https://github.com/ctechfilmuniversity/ctech_resources/tree/master/learning) in the [ctech_resources](https://github.com/ctechfilmuniversity/ctech_resources) repo (and add to it if you know of something that is not included in the list)!
+
+---
+template:inverse
+
+## Programming in this Class
+
+---
+
+## Programming in this Class
+
+> The focus of this class is not "learn how to program", however it is the goal that you all learn how to program with this class 😁. 
+
+???
+
+.task[COMMENT:]  
+
+* With this I mean that overall we do not cover language specifics in too much detail. 
+* Hopefully you build your programming skills through the practical assignments and looking into the details that you need for your assignment individually, making progress on your level.
+* The web development specifics I will cover as part of the class though such as:
+    * Web server, asynchrone execution, ... 
+    * (Functional vs. Object Oriented programming)
+
+--
+* Weekly programming assignments
+
+--
+* Assignments are open-ended and are related to the session's topic (and tech)
+
+--
+* Each assignment is evaluated on three levels
+    * Concept
+    * Form
+    * Implementation
+
 
 ---
 template: inverse
