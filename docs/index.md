@@ -187,7 +187,8 @@ Materials are structured as follows:
     * The [README.md](01_sessions/01_intro/README.md) in each session folder gives you an overview of all the readings, assignments, practical exercises, etc. that you have to do for that week - it is your todo list! I recommend to start your work with going through that file.
 * In [`Scripts`](02_scripts) you find all scripts.
     * Scripts are organized by topic. This means that I might continuously add content to an existing script, e.g. the setup script, across multiple sessions.
-* In [`Slides`](03_slides) you find all slides.
+* In [`Slides`](03_slides) you find all slides. 
+    * Please keep in mind that I am always updating the slides before the scripts. This means that on some occasions the script might not be in line with the slides and containing content from the previous years.
 * In [`Submissions`](04_submissions) you submit your work each week to the folder with your last name and a folder with the session index. You will submit all assignments to the same folder (the one with your last name).
     * Please do not submit files larger than 25 MB. Upload large files, e.g., in an Owncloud folder. Follow the same folder naming scheme as in Github.
 
