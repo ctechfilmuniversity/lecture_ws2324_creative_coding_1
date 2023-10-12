@@ -18,7 +18,7 @@ This session is all about diving into the topic of creative coding and getting r
 
 * [Creative Coding I](#creative-coding-i)
 * [Session 01 (10 points)](#session-01-10-points)
-    * [Syllabus \& Administration](#syllabus--administration)
+    * [Syllabus and Administration](#syllabus-and-administration)
         * [Task 01.01](#task-0101)
     * [Topics](#topics)
         * [Task 01.02](#task-0102)
@@ -30,11 +30,12 @@ This session is all about diving into the topic of creative coding and getting r
             * [Option B](#option-b)
     * [Setup](#setup)
         * [Task 01.05](#task-0105)
+        * [Task 01.06](#task-0106)
             * [Level 1](#level-1)
             * [Level 2](#level-2)
     * [Learnings](#learnings)
 
-## Syllabus & Administration
+## Syllabus and Administration
 
 Read the [Syllabus](../../index.md) carefully and know how this class works and what I expect of you.
 
@@ -85,7 +86,7 @@ Are there any languages, tools or environments for creative coding that you know
 
 ### Task 01.03
 
-Think a bit about your own personal motivation to learn creative coding. What would you like to do with coding and the topics in this class? What kind of creative coding project is of interest to you? 
+Think a bit about your own personal motivation to learn creative coding. What would you like to do with coding and the topics in this class? What kind of final creative coding project is of interest to you? 
 
 *Bullet points as answer are sufficient.*
 
@@ -93,13 +94,13 @@ Think a bit about your own personal motivation to learn creative coding. What wo
 
 #### Option A
 
-Find an existing creative coding project that you like. Coding needs to play a significant role for the project, also ideally it is web based (this is not a hard requirement). Describe what you like about the project and why you think that the project represents creative coding.
+Find an existing creative coding project that you like. Coding needs to play a significant role for the project, also ideally it is web-based (this is not a hard requirement). Describe what you like about the project and why you think that the project represents creative coding.
 
 Submit a short text and any other material you like (weblinks, images, videos).
 
 #### Option B
 
-Come up with your own creative coding project idea of any scope (no worries, you don't have to actually do it). Coding needs to play a significant role for the project, also ideally it is web based (this is not a hard requirement). Describe why you think the idea represents creative coding and why you want to do it.
+Come up with your own creative coding project idea of any scope (no worries, you don't have to actually implement it). Coding needs to play a significant role for the project, also ideally it is web-based (this is not a hard requirement). Describe why you think the idea represents creative coding and why you want to do it.
 
 Submit a short text and any other material you like (weblinks, images, videos).
 
@@ -114,15 +115,19 @@ In summary, for the lecture you will need to be able to work with
 
 For this session, our goal is for all of you to know how to access and work with the course material. This implies an understanding of Markdown and GitHub and having a development environment ready.
 
+### Task 01.05
+
+Get a development environment, which includes accessing GitHub, ready and familiarize yourself with it as much as you can.
+
 The scripts
 
 * [Script 02 - Setup](../../02_scripts/cc1_ws2324_02_setup_script.md) (Sections [Markdown](../../02_scripts/cc1_ws2324_02_setup_script.md#markdown) & [Development Environment](../../02_scripts/cc1_ws2324_02_setup_script.md#development-environment))
 * [Script 03 - GitHub](../../02_scripts/cc1_ws2324_03_github_script.md)
 
-will help you to get there. It is up to you to decide how much effort you need to put in, to get the setup working. 
+will help you to get there. It is up to you to decide how much effort you need to put in, to get your setup working. 
 
 
-### Task 01.05
+### Task 01.06
 
 #### Level 1
 
@@ -135,7 +140,8 @@ will help you to get there. It is up to you to decide how much effort you need t
 
 * What is your setup and why does it work well for you?
 * Investigate something for your environment or GitHub that you haven't used before. Describe it briefly.
-* Check with your classmates that do not have any experiences with GitHub yet and support them, if needed.
+* Do you have any aspects, experiences, tips, etc. for working with GitHub that could be helpful to know for beginners?
+* Check with your classmates who do not have any experiences with GitHub yet and support them, if needed.
 * Are there any open questions for working with the course material and GitHub?
 
 ## Learnings
