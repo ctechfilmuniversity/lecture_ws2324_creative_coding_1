@@ -107,6 +107,10 @@ Submit a short text and any other material you like (weblinks, images, videos).
 
 ## Setup
 
+```error
+Create a GitHub Account and email me your account name asap!
+```
+
 In summary, for the lecture you will need to be able to work with
 
 * a development environment, e.g. Visual Studio Code,
