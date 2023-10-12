@@ -32,6 +32,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babel
             * [Processing \& p5](#processing--p5)
             * [JavaScript](#javascript)
             * [C++](#c)
+            * [Others](#others)
         * [Software](#software)
         * [Hardware](#hardware)
         * [Programming in this Class](#programming-in-this-class)
@@ -270,11 +271,12 @@ As part of the introduction, I would like to give you an overview of possible la
 * JavaScript
 * Python
 * C++
+* Java
 * C#
-* (Java)
-
-<!-- ??? Elaborate each choice -->
-
+* Scala
+* Clojure
+* Rust
+* Kotlin
 
 
 ### Frameworks
@@ -328,6 +330,13 @@ JavaScript libraries directly relevant in the creative coding context (of course
 * [OpenFrameworks](https://openframeworks.cc/)
 * [Cinder](https://libcinder.org/gallery)  
 → Creative Coding II next term: OpenFrameworks
+
+#### Others
+
+* [Nannou for Rust](https://nannou.cc/)
+* [OpenRNDR for Kotlin](https://openrndr.org/)
+
+
 
 
 ### Software

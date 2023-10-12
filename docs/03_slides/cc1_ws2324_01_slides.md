@@ -280,6 +280,19 @@ template: inverse
 ---
 .header[Introduction | Examples]
 
+## Landlines
+
+[<img src="../02_scripts/img/01/landlines_01.png" alt="landlines_01" style="width:80%;">](https://lines.chromeexperiments.com/) [[Land Lines]](https://lines.chromeexperiments.com/)
+
+
+???
+.task[COMMENT:]  
+
+* The website of Zach Lieberman lets you explore Google maps satellite images through gestures. With the draw option, you can find similar satellite images that match the line that you draw on the screen. With the drag option, you can draw an infinite landscape based on your mouse movement.
+
+---
+.header[Introduction | Examples]
+
 ## Cinemetrics
 
 [<img src="../02_scripts/img/01/cinemetrics.png" alt="name" style="width:32%;">](https://cinemetrics.site/) [[Cinemetrics]](https://cinemetrics.site/)
@@ -302,7 +315,7 @@ template: inverse
 ---
 template: inverse
 
-### *What type of tools are possible through the web?*
+## *What type of tools are possible through the web?*
 
 
 ???
@@ -322,6 +335,24 @@ template: inverse
 --
 
 > How to make this system more fun or more interesting? Any ideas?
+  
+
+---
+.header[Introduction | Examples]
+
+## Live Coding
+
+For example with [Hydra](https://hydra.ojack.xyz/docs/#/) you can live code in the browser for audiovisual performances. It is free and open-source and made for beginners and experts alike.
+
+<img src="../02_scripts/img/01/hydra_01.png" alt="hydra_01" style="width:50%;">
+
+
+???
+.task[COMMENT:]  
+
+* https://hydra.ojack.xyz/?sketch_id=ritchse_3
+* https://hydra.ojack.xyz/docs/#/
+* https://cdm.link/2019/02/hydra-olivia-jack/
 
 
 ---
@@ -371,7 +402,7 @@ All assets are created or ingested straight into the cloud and do not need to be
 
 --
 
-#### -> Applications come to the data.
+#### -> Applications come to the data!
 
 
 ---
@@ -452,6 +483,12 @@ template:inverse
 ---
 template:inverse 
 
+.center[<img src="../02_scripts/img/01/final_schreiber_01.png" alt="final_schreiber_01" style="width:90%;">  
+[by Vi Schreiber] ]
+
+---
+template:inverse 
+
 .center[<img src="../02_scripts/img/01/hw_07_fontain.png" alt="name" style="width:100%;">  
 [by Mathias Fontain]]
 
@@ -466,6 +503,13 @@ template:inverse
 
 .center[<img src="../02_scripts/img/01/hw_07_traber_03.png" alt="name" style="width:100%;">  
 [by Markus Traber]]
+
+
+---
+template:inverse 
+
+.center[<img src="../02_scripts/img/01/final_passing_01.png" alt="name" style="width:80%;">  
+[by Lisa Passing]]
 
 ---
 template:inverse 
@@ -484,6 +528,25 @@ template:inverse
 
 .center[<img src="../02_scripts/img/01/postergenerator_02.png" alt="name" style="width:100%;">  
 [by Anna Eschenbacher & Zainab Tariq] ]
+
+---
+template:inverse 
+
+.center[<img src="../02_scripts/img/01/final_pang_01.png" alt="final_pang_01" style="width:100%;">  
+[by Marta Pang] ]
+
+---
+template:inverse 
+
+.center[<img src="../02_scripts/img/01/final_rumpf_01.png" alt="final_rumpf_01" style="width:100%;">  
+[by Tim Rumpf] ]
+
+
+---
+template:inverse 
+
+.center[<img src="../02_scripts/img/01/final_ho_01.png" alt="final_ho_01" style="width:90%;">  
+[by Jonathan Ho] ]
 
 ---
 template: inverse
@@ -518,7 +581,40 @@ template: inverse
 * JavaScript
 * Python
 * C++
-* (Java)
+* Java
+* C#
+* [Scala](https://scala-lang.org/)
+* [Clojure](https://clojure.org/)
+* [Rust](https://www.rust-lang.org/)
+* [Kotlin](https://kotlinlang.org/)
+* [Orca](https://github.com/hundredrabbits/Orca)
+
+
+???
+.task[COMMENT:]  
+
+* [Scala](https://www.creativescala.org/), https://scala-lang.org/
+* [Clojure](https://www.maria.cloud/) (online-environment + curriculum)
+* https://www.rust-lang.org/
+* https://clojure.org/
+* https://kotlinlang.org/
+* https://github.com/hundredrabbits/Orca
+
+---
+.header[Tools and Environments]
+
+## Programming Languages
+
+* **JavaScript**
+* **Python**
+* **C++**
+* Java
+* C#
+* [Scala](https://scala-lang.org/)
+* [Clojure](https://clojure.org/)
+* [Rust](https://www.rust-lang.org/)
+* [Kotlin](https://kotlinlang.org/)
+* [Orca](https://github.com/hundredrabbits/Orca)
 
 
 
@@ -533,7 +629,7 @@ template: inverse
 
 --
 
-* A special case of software libraries
+* A special case of software library
 * Abstractions of code wrapped in a well-defined Application Programming Interface (API)
 * Contain some key distinguishing features
 
@@ -578,7 +674,36 @@ template: inverse
 
 ## JavaScript
 
+* [p5.js](https://p5js.org/examples/)
+* [three.js](https://threejs.org/)
+* [sketch.js](http://soulwire.github.io/sketch.js/)
+* [D3](https://d3js.org/)
+* [PixiJS](http://www.pixijs.com/gallery)
+* [Phaser](https://phaser.io/)
+* [babylonjs](https://www.babylonjs.com/)
+* [Tone.js](https://tonejs.github.io/)
+* [tixy.land](https://tixy.land/)
+* [Hydra](https://hydra.ojack.xyz/)
+* [Quil](http://quil.info/)
+
+???
+
+.task[COMMENT:]  
+
 JavaScript libraries directly relevant in the creative coding context (of course we will need base tools such as node.js as well):
+
+* Any other suggestions?
+* [Tone.js](https://tonejs.github.io/) for audio related creative coding
+* [tixy.land](https://tixy.land/) — minimalist creative coding environment
+* [Hydra](https://hydra.ojack.xyz/) — creative live coding
+* [Quil](http://quil.info/) — processing + clojure
+
+
+---
+
+.header[Tools and Environments | Frameworks]
+
+## JavaScript
 
 * [**p5.js**](https://p5js.org/examples/)
 * [**three.js**](https://threejs.org/)
@@ -587,12 +712,24 @@ JavaScript libraries directly relevant in the creative coding context (of course
 * [PixiJS](http://www.pixijs.com/gallery)
 * [Phaser](https://phaser.io/)
 * [babylonjs](https://www.babylonjs.com/)
+* [Tone.js](https://tonejs.github.io/)
+* [tixy.land](https://tixy.land/)
+* [Hydra](https://hydra.ojack.xyz/)
+* [Quil](http://quil.info/)
 
 ???
 
 .task[COMMENT:]  
 
 * Any other suggestions?
+
+---
+.header[Tools and Environments | Frameworks]
+
+## C++
+
+* [OpenFrameworks](https://openframeworks.cc/)
+* [Cinder](https://libcinder.org/gallery)  
 
 ---
 .header[Tools and Environments | Frameworks]
@@ -606,11 +743,34 @@ JavaScript libraries directly relevant in the creative coding context (of course
 → Creative Coding II next term: OpenFrameworks
 
 ---
+.header[Tools and Environments | Frameworks]
+
+## Others
+
+* [Nannou for Rust](https://nannou.cc/)
+* [OpenRNDR for Kotlin](https://openrndr.org/)
+
+---
 .header[Tools and Environments]
 
 ## Software
 
-* [**Touch Designer**](https://www.derivative.ca/), [vvvv](https://vvvv.org/), [Pure Data](https://puredata.info/), [**Max/MSP**](https://cycling74.com/)
+* [Touch Designer](https://www.derivative.ca/), [vvvv / vvvv gamma](https://vvvv.org/), [Pure Data](https://puredata.info/), [Max/MSP](https://cycling74.com/)
+* [MadMapper](https://madmapper.com/), [Millumin 2](https://www.millumin.com/v2/index.php), [VDMX](https://vidvox.net/), [Resolume](https://resolume.com/)
+* [LUMOplay](https://www.lumoplay.com/)
+* [Unity](https://unity3d.com), [Unreal](https://www.unrealengine.com)
+* [Reaper](https://www.reaper.fm/), [Ableton](https://www.ableton.com)
+* [Maya](https://www.autodesk.de/products/maya/overview), [Houdini](https://www.sidefx.com/), [3dsMax](https://www.autodesk.de/products/3ds-max/overview), [Cinema4D](https://www.maxon.net/de/produkte/cinema-4d/cinema-4d/), [ZBrush](https://pixologic.com/), [Allegorithmic](https://www.allegorithmic.com/)
+* [Nuke](https://www.foundry.com/products/nuke), [After Effects](https://www.adobe.com/de/products/aftereffects.html), [Avid](https://www.avid.com/de/), [Premiere](https://www.adobe.com/products/premiere.html?promoid=PQ7SQBYQ&mv=other)
+* [Flash](https://en.wikipedia.org/wiki/Adobe_Flash), [Director MX](https://en.wikipedia.org/wiki/Adobe_Director)
+* [Photoshop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other), [Illustrator](https://www.adobe.com/products/illustrator.html?promoid=PGRQQLFS&mv=other), [InDesign](https://www.adobe.com/products/indesign.html)
+
+---
+.header[Tools and Environments]
+
+## Software
+
+* [**Touch Designer**](https://www.derivative.ca/), [vvvv / vvvv gamma](https://vvvv.org/), [Pure Data](https://puredata.info/), [**Max/MSP**](https://cycling74.com/)
 * [MadMapper](https://madmapper.com/), [Millumin 2](https://www.millumin.com/v2/index.php), [VDMX](https://vidvox.net/), [Resolume](https://resolume.com/)
 * [LUMOplay](https://www.lumoplay.com/)
 * [**Unity**](https://unity3d.com), [**Unreal**](https://www.unrealengine.com)
@@ -620,7 +780,21 @@ JavaScript libraries directly relevant in the creative coding context (of course
 * [Flash](https://en.wikipedia.org/wiki/Adobe_Flash), [Director MX](https://en.wikipedia.org/wiki/Adobe_Director)
 * [Photoshop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other), [Illustrator](https://www.adobe.com/products/illustrator.html?promoid=PGRQQLFS&mv=other), [InDesign](https://www.adobe.com/products/indesign.html)
 
-...
+... 
+
+---
+.header[Tools and Environments]
+
+## Hardware
+
+* Micro controllers
+* Sensors, e.g. depth
+* Projectors
+* VR, AR, MR devices
+* Displays
+* Drone
+* Eye, brain tracker  
+
 
 ---
 .header[Tools and Environments]
@@ -667,6 +841,7 @@ template:inverse
     * (Functional vs. Object Oriented programming)
 
 --
+  
 * Weekly programming assignments
 
 --
