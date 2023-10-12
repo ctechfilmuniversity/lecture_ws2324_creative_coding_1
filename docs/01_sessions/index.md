@@ -2,7 +2,7 @@
 layout: default
 title: Sessions
 nav_order: 2
-has_children: true
+has_children: false
 ---
 
 # Creative Coding 1
@@ -11,5 +11,4 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
   
 # Sessions
 
-In this section you find all sessions for the course.
-
+* [Session 1 - Intro](01_intro/README.md)
