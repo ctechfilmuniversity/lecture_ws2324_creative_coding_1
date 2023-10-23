@@ -133,7 +133,7 @@ Extremly interesting creative coding project, very sophisticated evolutionary ag
 
 ### **Emissaries**
 
-Not really a classical creative coding project i would say, but the main idea behind it - Storytelling & Story Development through algorithms & AI (NPCs) relies heavily on creative coding one could argue. Therefore i find fitting to name here. The idea of creating something like a movie where there is a certain aspect of autonomy in the characters and a certain amount of freedom / unpredictability in the characters decision making ( & the relevancy for the main story in that) i found a highly interesting approach. 
+Not really a classical creative coding project i would say, but the main idea behind it - Storytelling & Story Development through algorithms & AI (NPCs) relies heavily on creative coding I would say. Therefore i find it fitting to name it here. The idea of creating something like a movie where there is a certain aspect of autonomy in the characters and a certain amount of freedom / unpredictability in the characters decision making ( & the relevancy for the main story in that) i found a highly interesting approach. 
 
 - http://iancheng.com/emissaries
 #### Option B
