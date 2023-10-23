@@ -117,10 +117,10 @@ the library’s potential in different use cases. In addition, I just want to
 point out the amazing and aesthetically pleasing _lighting_ of the scene,
 combined with the rough geometry.
 
-<img src="img/01.png" alt="Giant and Flower" width=350 />
-<img src="img/02.png" alt="Walking Giant" width=350 />
+<img src="img/01.png" alt="Giant and Flower" width=250 />
+<img src="img/02.png" alt="Walking Giant" width=250 />
 
-<img src="img/03.png" alt="Giant ont top of Mountains" width=704 />
+<img src="img/03.png" alt="Giant ont top of Mountains" width=504 />
 
 *All images are screenshots from the original projects's
 [website](https://giant105.com/).*
