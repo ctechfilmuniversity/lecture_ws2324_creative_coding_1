@@ -5,7 +5,7 @@ nav_exclude: true
 ---
 
 # CC1 WS2324 01 Maas
-15.10.2023
+23.10.2023
 
 ### Task 01.01
 
