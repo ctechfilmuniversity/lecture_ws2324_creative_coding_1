@@ -113,7 +113,7 @@ Submit a short text and any other material you like (weblinks, images, videos).
 
 
 
-###### ***Datamatics***
+##### **Datamatics**
 
 First of all, it has to be noticed that this piece by Ryoji Ikeda & his team is purely done in the visual programming environment "PureData", therefore it seems likely that text-based programming might not have been that relevant for the development. Nevertheless i think it is a good example for creative coding. 
 
@@ -123,7 +123,7 @@ I think it represents creative coding because it is an artistic piece, a composi
 
 - https://www.ryojiikeda.com/project/datamatics/
 
-###### ***Alien Project***
+##### **Alien Project**
 
 "**Ar**tificial **LIfe ENvironment (ALIEN)** is an artificial life simulation tool based on a specialized 2D particle engine in CUDA for soft bodies and fluids. Each simulated body consists of a network of particles that can be upgraded with higher-level functions, ranging from pure information processing capabilities to physical equipment (such as sensors, muscles, weapons, constructors, etc.) whose executions are orchestrated by neural networks. The bodies can be thought of as agents or digital organisms operating in a common environment. Their blueprints can be stored in genomes and passed on to offspring."
 
@@ -131,7 +131,7 @@ Extremly interesting creative coding project, very sophisticated evolutionary ag
 
 - https://www.alien-project.org/index.html
 
-###### ***Emissaries***
+##### **Emissaries**
 
 Not really a classical creative coding project i would say, but the main idea behind it - Storytelling & Story Development through algorithms & AI (NPCs) relies heavily on creative coding one could argue. Therefore i find fitting to name here. The idea of creating something like a movie where there is a certain aspect of autonomy in the characters and a certain amount of freedom / unpredictability in the characters decision making ( & the relevancy for the main story in that) i found a highly interesting approach. 
 
