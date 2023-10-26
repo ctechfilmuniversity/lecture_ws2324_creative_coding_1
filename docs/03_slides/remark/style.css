@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
 .remark-slide-content h3 { font-size: 1.3em; }
 
 li { line-height: 1.6em; }
-ul { margin-top: 0.7em; }
+/* ul { margin-top: 0.7em; } */
 
 .red { color: #fa0000; }
 .green { color: #08fa00; }
@@ -61,14 +61,27 @@ code {
     font-size: 0.9em;
     padding: 15px;
 }
+
+
 .inverse {
-    background: #2e2e2e;
-    color: #acacac;
-    text-shadow: 0 0 20px #333;
+    /* background: #2e2e2e; */
+    /* background: #ff4646; */
+    /* background: linear-gradient(to right, rgb(238, 252, 83), rgb(120, 239, 197)) */
+    color: #000000;
+
+    background:
+    radial-gradient(ellipse at top     left, rgb(0, 200, 255)  15% , transparent 60%), 
+    radial-gradient(ellipse at bottom  left, rgb(162, 12, 255)  15% , transparent 60%),
+    radial-gradient(ellipse at top    right, rgb(255, 45, 213) 15% , transparent 60%),
+    radial-gradient(ellipse at bottom right, rgb(0, 128, 255)   15% , transparent 60%)
 }
-.inverse h1, .inverse h2 {
-    color: #f5f5f5;
-    line-height: 1.6em;
+
+
+.inverse h1, .inverse h2, .inverse h3 {
+    color: #ffffff;
+    /* text-shadow: 0 0 8px rgb(0, 122, 78); */
+    text-shadow: 0 0 10px rgb(15, 65, 49);
+    line-height: 1.em;
     margin-bottom: 1em;
 }
 
@@ -135,7 +148,8 @@ code {
     color:#a0a0a0
 }
 .footnote a {
-    color:#909090
+    color:#909090;
+    text-decoration: underline;
 }
 
 .remark-slide-content p { 
@@ -174,7 +188,7 @@ blockquote p
 
 
 .header {
-    font-size: 0.6em; 
+    font-size: 0.8em; 
     color: #707070;
     /* opacity: 0.5; */
 }
@@ -182,7 +196,7 @@ blockquote p
 .remark-slide-container { background: #cacaca; }
 
 .remark-slide-number { 
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: #707070;
     opacity: 1;
 }
@@ -236,3 +250,10 @@ script {
     display: none;
     background-color: #e5e5e5;
   }
+
+.caption { 
+    font-size: 0.7em; 
+    color: #909090;
+    /* font-style: italic; */
+}
+
