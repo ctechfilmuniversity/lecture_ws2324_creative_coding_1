@@ -140,7 +140,7 @@ As assignments and tasks are flexible, you are equally responsible to get the be
 * You can also base your project on a tutorial from the internet. The result of the tutorial will not be enough though, you have to develop the project somehow further and make it your own. 
 * The (hard) deadline for the final exercise is **February 29th**.
 * The official work period for the final assignment is Jan. 16th - Feb. 29th. The deadline for the final project is February, 29th.
-    * The deadline for the final project is strict and for a late submission, I reduce 5% of your points per day.
+    * The deadline for the final project is strict and for a late submission, I reduce **15% of the total points**.
     * If you are sick within the official work period, you can get a deadline extension based on a doctor's note ("Attest").
 
 
@@ -158,7 +158,7 @@ There will be a grade.
 
 The grade is computed from the assignment points (50%) and the final exercise (50%).
   
-You can hand in exercise results up until February 29th to make them count (this is a hard deadline). However, if you hand in an exercise after the deadline that is given in a session **25% of the total points will reduced** (e.g. for 10 points 2.5 points are reduced).
+You can hand in exercise results up until February 29th to make them count (this is a hard deadline). However, if you hand in an exercise after the deadline that is given in a session **15% of the total points will reduced** (e.g. for 10 points 1.5 points are reduced).
 
 ### Criteria
 
