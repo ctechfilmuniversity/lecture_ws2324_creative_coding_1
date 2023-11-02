@@ -2233,6 +2233,24 @@ Good layout matters!!
 * https://editor.p5js.org/legie/full/-HB6nto44
 
 ---
+.header[Algorithm]
+
+## Sub-Problems
+
+1. *Line Drawing*: Each frame draw a line with start and end point in a certain range to the previous ones
+2. *Movement*: The placement of the new start and end points follows each a direction
+3. *Border collision*: Change direction if a start or end point hits a border
+4. *Color*: Slowly change the line's color over time
+
+
+???
+.task[COMMENT:]  
+
+A. https://editor.p5js.org/legie/sketches/PwBLEu8pn7
+B. https://editor.p5js.org/legie/sketches/9i2kF3Be6
+C. https://editor.p5js.org/legie/sketches/H-2RPs_jN
+
+---
 template: inverse
 
 ## The End  
