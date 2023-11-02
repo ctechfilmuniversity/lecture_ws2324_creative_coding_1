@@ -246,14 +246,18 @@ th {
     background-color: #eee;
   } */
 
-script {
+/* script {
     display: none;
     background-color: #e5e5e5;
-  }
+  } */
 
 .caption { 
     font-size: 0.7em; 
     color: #909090;
     /* font-style: italic; */
+}
+
+.remark-code {
+    font-size:0.9em;
 }
 
