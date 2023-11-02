@@ -22,14 +22,16 @@ In this session we are going to think about the topic of *instructions* and what
     * [Instructions](#instructions)
         * [Task 03.01 - *Coding*](#task-0301---coding)
         * [Task 03.02 - *Coding*](#task-0302---coding)
-        * [Task 03.03 - *Creative / Artistic Instructions*](#task-0303---creative--artistic-instructions)
+        * [Task 03.03 - *Creative Instructions*](#task-0303---creative-instructions)
     * [Learnings](#learnings)
 
 
 
 ## Instructions
 
-Submit a an text-based program and its result for each instruction. Add or link results, if possible, in your submission file.
+Submit a text-based program and its result for each of the following instruction. Submit a link to you sketch and add or link results in your submission file.
+  
+*Note*: If you are using the p5 online editor, also submit your source code.
 
 ### Task 03.01 - *Coding*
 
@@ -46,7 +48,7 @@ It makes me happy to see you.
 Seeing you is happiness.
  -->
 
-### Task 03.03 - *Creative / Artistic Instructions*
+### Task 03.03 - *Creative Instructions*
 
 Write instructions that are in themselves a creative output.
 
