@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Script
-nav_exclude: true
+title: Script 03 - Git & GitHub
+parent: Scripts
+nav_order: 4
 ---
 
 # Creative Coding I: Design & Communication
