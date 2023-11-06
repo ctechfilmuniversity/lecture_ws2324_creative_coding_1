@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Script 03 - Git & GitHub
+title: Script 04 - JavaScript
 parent: Scripts
 nav_order: 4
 ---
@@ -11,10 +11,10 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babel
 
 ---
 
-# Script 04: JavaScript
+# Script 04 - JavaScript
 
 * [Creative Coding I: Design \& Communication](#creative-coding-i-design--communication)
-* [Script 04: JavaScript](#script-04-javascript)
+* [Script 04 - JavaScript](#script-04---javascript)
     * [Introduction](#introduction)
     * [Tutorials and References](#tutorials-and-references)
     * [Strict Mode](#strict-mode)

@@ -62,27 +62,26 @@ With this course, you will
 
 ## Topics
 
-| Session | Topic      | Subtopics         | Tech                     | Libraries / Tools  |
-| ------- | ---------- | ----------------- | ------------------------ | ------------------ |
-| 1       | Motivation | Creative Coding   |                          |                    |
-|         |            | Setup             | Material Management      | Git, GitHub        |
-|         |            |                   | Markdown                 | Visual Studio Code |
-| 2       | Emergence  | 2D Design         | Development Environments | p5                 |
-|         |            | Basic Interaction |                          |                    |
-| 3       |            |                   |                          |                    |
-|         |            |                   |                          |                    |
-| 4       |            |                   |                          |                    |
-|         |            |                   |                          |                    |
-| 5       |            |                   |                          |                    |
-|         |            |                   |                          |                    |
-| 6       |            |                   |                          |                    |
-|         |            |                   |                          |                    |
-| 7       |            |                   |                          |                    |
-|         |            |                   |                          |                    |
-| 8       |            |                   |                          |                    |
-|         |            |                   |                          |                    |
-| 9       |            |                   |                          |                    |
-|         |            |                   |                          |                    |
+| Session | Topic        | Subtopics            | Tech                     | Libraries / Tools  |
+| ------- | ------------ | -------------------- | ------------------------ | ------------------ |
+| 1       | Motivation   | Creative Coding      |                          |                    |
+|         |              | Setup                | Material Management      | Git, GitHub        |
+|         |              |                      | Markdown                 | Visual Studio Code |
+| 2       | Emergence    | 2D Design            | Development Environments | p5                 |
+|         |              | Basic Interaction    |                          |                    |
+| 3       | Instructions | Algorithmic Thinking | Programming Overview     | p5                 |
+| 4       | Connection   | The Web              | html, css, js            |                    |
+|         |              | Going Online         | Local Webserver          |                    |
+| 5       |              |                      |                          |                    |
+|         |              |                      |                          |                    |
+| 6       |              |                      |                          |                    |
+|         |              |                      |                          |                    |
+| 7       |              |                      |                          |                    |
+|         |              |                      |                          |                    |
+| 8       |              |                      |                          |                    |
+|         |              |                      |                          |                    |
+| 9       |              |                      |                          |                    |
+|         |              |                      |                          |                    |
 
 Please note that topics are subject to change!
 
