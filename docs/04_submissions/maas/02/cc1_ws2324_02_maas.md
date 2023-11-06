@@ -28,6 +28,7 @@ In this session we are going to think about the topic of *emergence* and what it
   - [Emergence](#emergence)
     - [Task 02.04 - Conceptualization](#task-0204---conceptualization)
   - [Learnings](#learnings)
+  - [Please summarize your personal learnings (text or bullet points - whatever you prefer). What was challenging for you in this session? How did you challenge yourself?](#please-summarize-your-personal-learnings-text-or-bullet-points---whatever-you-prefer-what-was-challenging-for-you-in-this-session-how-did-you-challenge-yourself)
 
 ## JavaScript
 
@@ -101,14 +102,26 @@ Come up with an idea for a creation that includes emergent behavior, where the s
 Submit a short description and ideally, if possible, a preview image (this can be drawn by hand).
 
 ---
+The arteries of Berlin
+The movement data of the individual is stored by GPS via the cell phone over the course of a day. These are plotted on a blank map together with the data of as many users as possible. The chaos of the individual routes results in traffic arteries that map the city's roads and public transport. An image of the city results from the movement pattern of the individual. Important hotspots of the city get highlighted in midst of the chaos.
+
+![Image 1](cc1_ws2324_02_maas_06.jpeg)
 
 ---
 
 ## Learnings
 
 Please summarize your personal learnings (text or bullet points - whatever you prefer). What was challenging for you in this session? How did you challenge yourself?
+---
 
+-getting used to the syntax of P5 
+-finding an interesting approach to the limitations of the for-loop system
+-experimenting with may different ideas
+-learning how to implement fonts, sounds, different interactions, randomize color
+-I challenged myself by doing two sketches -> https://editor.p5js.org/Linmaas/full/WaqjAQMpG
+-I learned that most of the time there is an easy, build in soulution instead of doing the math yourself, after I tried to clamp the mousX value manually, I found out about the map function in P5, that does it for you.
 
+---
 ---
 
 Answer all questions directly in a copy of this file and also link and display your images in that file. Submit your copy as `cc1_ws2324_XX_lastname.md` in your assignments folder.
