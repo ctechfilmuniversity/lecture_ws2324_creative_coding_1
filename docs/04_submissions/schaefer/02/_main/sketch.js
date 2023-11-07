@@ -8,7 +8,7 @@ let Particles = []
 var img
 
   function preload() {
-    img = loadImage('assets/mycubes.png')
+  img = loadImage('assets/mycubes.png')
   }
 
   function setup() {
