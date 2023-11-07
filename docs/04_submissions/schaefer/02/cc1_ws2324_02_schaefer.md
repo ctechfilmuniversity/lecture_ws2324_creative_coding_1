@@ -63,7 +63,7 @@ Submit the links and a brief explanation for each why you like the sketch.
 [Link1:](https://p5js.org/examples/simulate-particles.html)
 Classic Plexus Style Particle System, i just like the aesthetics of points flowing through space and connecting each other with a line when close enough. 
 
-[Link2:](https://github.com/stihilus/Generated-p5js-Portraits/tree/masters)
+[Link2:](https://github.com/stihilus/Generated-p5js-Portraits/tree/master)
 Really Interesting Patterns emerging from Image Data / Structure. 
 
 
