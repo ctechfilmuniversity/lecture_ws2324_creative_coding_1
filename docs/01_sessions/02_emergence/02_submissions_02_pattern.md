@@ -28,13 +28,13 @@ If you have further ideas about how to design the pattern and interactions but d
 ### Galina Angelova
 
 
-<img src="../../04_submissions/angelova/02/img/example-main-0.png" width=450></img> <img src="../../04_submissions/angelova/02/img/example-main-1.png" width=450></img>
+<img src="../../04_submissions/angelova/02/img/example-main-0.png" width=450> <img src="../../04_submissions/angelova/02/img/example-main-1.png" width=450>
 
-<img src="../../04_submissions/angelova/02/img/rotate-compressed.gif" width=450></img> <img src="../../04_submissions/angelova/02/img/scaled-compressed.gif" width=450></img>
+<img src="../../04_submissions/angelova/02/img/rotate-compressed.gif" width=450> <img src="../../04_submissions/angelova/02/img/scaled-compressed.gif" width=450>
 
 #### Some other experiments
 
-<img src="../../04_submissions/angelova/02/img/example-test-1.png" width=225></img> <img src="../../04_submissions/angelova/02/img/example-test-2.png" width=225></img>
+<img src="../../04_submissions/angelova/02/img/example-test-1.png" width=225> <img src="../../04_submissions/angelova/02/img/example-test-2.png" width=225>
 
 ### Anna Ferro
 
