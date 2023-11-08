@@ -13,4 +13,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 * [Session 01 - Intro](01_intro/README.md)
 * [Session 02 - Emergence](02_emergence/README.md)
+    * [Submissions - Motivation](02_emergence/02_submissions_01_motivation.md)
+    * [Submissions - 10PRINT Pattern](02_emergence/02_submissions_02_pattern.md)
+    * [Submissions - Concept Emergence](02_emergence/02_submissions_03_emergence.md)
 * [Session 03 - Instructions](03_instructions/README.md)
