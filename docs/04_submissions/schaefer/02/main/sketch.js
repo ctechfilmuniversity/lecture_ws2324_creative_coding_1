@@ -8,27 +8,29 @@ let Particles = []
 var img
 
   function preload() {
-    img = loadImage('assets/mycubes.png')
+    //img = loadImage('assets/mycubes.png')
   }
 
   function setup() {
     createCanvas(windowWidth, windowHeight);
     background(255);
-    img.resize(windowWidth,windowHeight)
+    //img.resize(windowWidth,windowHeight)
+
 	  setupParticles();
+    
 
     // Posenet Stuff
-    capture = createCapture(VIDEO)
-    capture.size(windowWidth, windowWidth * capture.height / capture.width)
-    capture.hide();
-    poseNet = new ml5.poseNet(capture, modelReady)
-    poseNet.on('pose', function(results) {
-      poses = results
-    })
+    // capture = createCapture(VIDEO)
+    // capture.size(windowWidth, windowWidth * capture.height / capture.width)
+    // capture.hide();
+    // poseNet = new ml5.poseNet(capture, modelReady)
+    // poseNet.on('pose', function(results) {
+    //   poses = results
+    // })
   }
   
   function draw() {
-    //background(255);
+    background(255,15);
     //image(capture,0,0,windowWidth, windowWidth * capture.height / capture.width);
     //image(img,0,0)
     updateParticles()
@@ -36,10 +38,10 @@ var img
     
     if (mouseIsPressed === true) {
       line(mouseX, mouseY, pmouseX, pmouseY)
-      colorParticlesFromImage(img)
+      //colorParticlesFromImage(img)
       //save("staticPattern.png")
       for(let i in Particles){
-        Particles[i].setPos(createVector(random(windowWidth),random(windowHeight)))
+        //Particles[i].setPos(createVector(random(windowWidth),random(windowHeight)))
         //Particles[i].drawLines(createVector(random(windowWidth),random(windowHeight)))
 
       }
