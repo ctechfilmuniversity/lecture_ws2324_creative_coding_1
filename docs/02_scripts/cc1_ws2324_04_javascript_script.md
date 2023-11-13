@@ -42,6 +42,33 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babel
         * [Optional Arguments](#optional-arguments)
         * [Rest Parameters](#rest-parameters)
         * [Pass by Reference vs. by Value](#pass-by-reference-vs-by-value)
+    * [Higher Order Functions](#higher-order-functions)
+        * [Anonymous Functions](#anonymous-functions)
+        * [Arrow Functions](#arrow-functions)
+        * [Closures](#closures)
+            * [Global Variables](#global-variables)
+            * [Variable Lifetime](#variable-lifetime)
+            * [A Counter Dilemma](#a-counter-dilemma)
+            * [Nested Functions](#nested-functions)
+            * [Setup](#setup)
+    * [Asynchronism](#asynchronism)
+        * [Callbacks](#callbacks)
+        * [Error-First Callbacks](#error-first-callbacks)
+        * [Nesting Callbacks](#nesting-callbacks)
+        * [Pyramid of Doom](#pyramid-of-doom)
+    * [Promises](#promises)
+        * [Understanding Promises](#understanding-promises)
+        * [Creating a Promise](#creating-a-promise)
+        * [Consumers: `then` and `catch`](#consumers-then-and-catch)
+        * [Chaining Promises](#chaining-promises)
+            * [Sequencing](#sequencing)
+            * [Returning Promises](#returning-promises)
+            * [Summary then \& catch](#summary-then--catch)
+        * [Async/Await](#asyncawait)
+            * [Async](#async)
+            * [Await](#await)
+            * [Example](#example)
+            * [Summary](#summary)
     * [Style Guide](#style-guide)
         * [Spaces and Tabs](#spaces-and-tabs)
 
@@ -934,7 +961,8 @@ console.log(["will", ...words, "understand"]);
 
 Javascript is pass-by-value for primitive datatype. This means that when you pass arguments to a function, JavaScript makes a copy of their values and works inside of the function with those copies. In case of arrays and objects, Javascripts *mimics* the behavior of pass-by-reference, which is under the hood again pass-by-value.
 
-<!-- 
+
+
 ## Higher Order Functions
 
 In mathematics and computer science, a higher-order function is a function that does at least one of the following:
@@ -1003,8 +1031,6 @@ There are two ways to make this code much more compact: *anonymous* functions an
 ### Anonymous Functions
 
 <!-- Anonymous functions are functions that are dynamically declared at runtime.  -->
-
-<!-- 
 Anonymous functions are called anonymous because they aren’t given a name in the same way as normal functions. As the name is missing as connector to the function we can not refer to it from another place in the code. Hence, anonymous functions are directly placed, where they are needed (or stored in a variable, we come back to this).
 
 *An anonymous function is a function without a name.*
@@ -1252,7 +1278,7 @@ Using `const` is safer than using `let`, because a function expression is always
 
 You can only omit the return keyword and the curly brackets if the function is a *single statement*. Because of this, it might be a good habit to always keep them: -->
 
-<!--
+
 ### Closures
 
 *On a Side Note*: this section about closures is advanced and optional! 
@@ -1572,8 +1598,6 @@ Keep in mind that the above is not a client side function, recognized by the bro
 
 <!-- Keep in mind that most ml5.js methods and functions are asynchronous (machine learning models can take significant amounts of time to process inputs and generate outputs!).   -->
 
-
-<!--
 The callback functionality is based on the principle of [*higher order functions*]((#higher-order-functions)).
 
 ### Nesting Callbacks
@@ -2341,117 +2365,6 @@ With `async/await` we rarely need to write `promise.then/catch`, but we still sh
 
 
 [[javascript.info]](https://javascript.info/async-await)
-
-
-## Modules
-
-JavaScript modules allow you to break up your code into separate files. This makes it easier to maintain the code-base. JavaScript modules rely on the `import` and `export` statements.
-
-Keep in mind, that modules only work with the HTTP(s) protocol. A web-page opened via the file:// protocol cannot use import / export.
-
-
-### Export
-
-You can export a function or variable from any file. Exported values can then be imported into other programs with the import declaration. 
-
-There are two types of exports, *named* exports and *default* exports. You can have multiple named exports per module but only one default export. 
-
-#### Named Exports
-
-You can create named exports for specific lines individually, or all at once at the bottom of a file.
-
-For an in-line individual export, after the `export` keyword, you can use `let`, `const`, and `var` declarations, as well as `function` or `class` declarations: 
-
-```js
-// person.js
-export const name = "Jesse";
-export const age = 40;
-```
-
-For exporting all at once at the bottom, you can also use the `export { name1, name2 }` syntax to export a list of names declared elsewhere:
-
-```js
-// person.js
-const name = "Jesse";
-const age = 40;
-
-export {name, age};
-```
-
-#### Default Exports
-
-You can only have one default export in a file.
-
-```js
-// message.js
-const message = () => {
-    const name = "Jesse";
-    const age = 40;
-    return name + ' is ' + age + 'years old.';
-};
-
-export default message;
-```
-
-Named exports are useful when you need to export several values. When importing this module, named exports must be referred to by the exact same name (optionally renaming it with as), but the default export can be imported with any name. For example:
-
-```js
-// file test.js
-const k = 12;
-export default k;
-```
-
-```js
-// some other file
-import m from './test'; // note that we have the freedom to use import m instead of import k, because k was default export
-console.log(m);        // will log 12
-```
-
-You can also rename named exports to avoid naming conflicts:
-
-```js
-export {
-  myFunction as function1,
-  myVariable as variable,
-};
-```
-
-
-### Import
-
-You can read-only import modules into a file in two ways, based on if they are *named* exports or *default* exports. Named exports are constructed using curly braces. Default exports are not.   
-
-In total there are four forms of [import declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import):
-
-* Named import: import { export1, export2 } from "module-name";
-* Default import: import defaultExport from "module-name";
-* Namespace import: import * as name from "module-name";
-* Side effect import: import "module-name";
-
-`import` declarations can only be present in modules, and only at the top-level (i.e. not inside blocks, functions, etc.). 
-
-#### Import From Named Exports
-
-Import named exports from the file `person.js`:
-
-```js
-import { name, age } from "./person.js";
-```
-
-#### Import From Default Exports
-
-Import a default export from the file `message.js`:
-
-```js
-import message from "./message.js";
-```
-
-
-##### Resources
-
-* [w3 - JavaScript Modules](https://www.w3schools.com/js/js_modules.asp)
-* [mdn web docs - import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
- -->
 
 
 
