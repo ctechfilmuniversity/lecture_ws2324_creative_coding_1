@@ -33,7 +33,7 @@ In the `./src/circle` folder, there is a small mystery for a start. The instruct
 If you do this and are further interested in discovering the hidden easter egg, you have to find out the *instruction* for its appearance on your own... what could this *instruction* be, having in mind the **b**irds topic of my assignment...
 
 <details>
-<summary>Of course, if you can also simply see the <i>instructions</i> and results in the hidden section below.</summary>
+<summary>Of course, you can also simply see the <i>instructions</i> and results in the hidden section below.</summary>
 
 The special <i>instruction</i> for the easter egg is, of course, pressing key <b>B</b>! 🐤 As a result, your circle will transform into a bird's head! If you want to do it again, you can either refresh your browser with the reload button, or click key <b>R</b> to refresh.
 
