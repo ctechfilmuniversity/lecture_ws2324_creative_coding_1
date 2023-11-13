@@ -1,4 +1,3 @@
-CC1: Session 2 
 ---
 layout: default
 title: Session
@@ -23,6 +22,8 @@ In this session we are going to think about the topic of *emergence* and what it
         * [Task 02.01 -  Motivation](#task-0201----motivation)
         * [Task 02.02 - *p5 With The Online Editor*](#task-0202---p5-with-the-online-editor)
         * [Task 02.03 - The 10 PRINT pattern](#task-0203---the-10-print-pattern)
+            * [Pattern #05](#pattern-05)
+            * [Some other experiments](#some-other-experiments)
     * [Emergence](#emergence)
         * [Task 02.04 - Conceptualization](#task-0204---conceptualization)
     * [Learnings](#learnings)
