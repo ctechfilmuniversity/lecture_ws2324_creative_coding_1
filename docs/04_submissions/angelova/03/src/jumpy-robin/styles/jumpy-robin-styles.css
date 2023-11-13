@@ -1,0 +1,263 @@
+.scene {
+    display: none;
+    position: absolute;
+    width: 1440px;
+    height: 894px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.robin {
+    display: flex;
+    position: absolute;
+    left: 15%;
+    animation: robin-bouncing 0.8s infinite;
+}
+
+.head {
+    position: absolute;
+    width: 157px;
+    height: 102px;
+    top: 245px;
+    left: 496px;
+    border-radius: 50px 100px 0px 10px;
+    transform: rotate(349deg);
+    background: radial-gradient(ellipse at 23px 339px, orange 120px, #655E42 104px);
+}
+
+.eye {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 57px;
+    left: 25px;
+    background-color: #481f04;
+    border-radius: 40% 50%;
+}
+
+.eye:after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 57px;
+    left: 25px;
+    background-color: #f3e2d6;
+    border-radius: 40% 50%;
+}
+
+.beak {
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    top: 71px;
+    left: -36px;
+    background-color: #3b2323;
+    border-radius: 52px 20px 20px 10px;
+    transform: rotate(347deg);
+}
+
+.body {
+    position: absolute;
+    width: 246px;
+    height: 210px;
+    top: 340px;
+    left: 494px;
+    border-radius: 30% 98% 98% 30% / 58% 31% 89% 42%;
+    transform: rotate(69deg);
+    background: radial-gradient(ellipse at 47px 167px, orange 119px, #655E42 104px);
+}
+
+.wing {
+    position: absolute;
+    background-color: #48432e;
+    border-radius: 182px 14px 91px 96px;
+    animation: wing-clapping 0.8s infinite;
+}
+
+.tail {
+    position: absolute;
+    background-color: #3e3a25;
+    clip-path: polygon(0% 30%, 100% 0%, 100% 10%, 80% 30%, 100% 35%, 100% 80%, 0% 55%);
+    border-radius: 20% 30% 80% 50%;
+    z-index: -1;
+    animation: tail-bobbing 0.8s infinite;
+}
+
+.legs {
+    animation: tiny-legs-move 0.8s infinite;
+}
+
+.leg-right {
+    position: absolute;
+    width: 8px;
+    height: 100px;
+    top: 524px;
+    left: 562px;
+    background-color: #3b2323;
+    border-radius: 40px 20px;
+    transform: rotate(39deg);
+}
+
+.leg-right-finger-1 {
+    position: relative;
+    width: 8px;
+    height: 38px;
+    top: 88px;
+    left: -15px;
+    background-color: #3b2323;
+    border-radius: 4px 1px 20px 167px;
+    transform: rotate(49deg);
+}
+
+.leg-right-finger-2 {
+    position: relative;
+    width: 6px;
+    height: 38px;
+    top: 54px;
+    left: 1px;
+    background-color: #3b2323;
+    border-radius: 4px 1px 20px 167px;
+    transform: rotate(2deg);
+}
+
+.leg-right-finger-3 {
+    position: relative;
+    width: 7px;
+    height: 32px;
+    top: 8px;
+    left: 14px;
+    background-color: #3b2323;
+    border-radius: 10px 0px 2px 2px;
+    transform: rotate(108deg);
+}
+
+.leg-right-finger-4 {
+    position: relative;
+    width: 7px;
+    height: 20px;
+    top: -30px;
+    left: 11px;
+    background-color: #3b2323;
+    border-radius: 3px 36px 26px 8px;
+    transform: rotate(51deg);
+}
+
+.leg-left {
+    position: absolute;
+    width: 7px;
+    height: 91px;
+    top: 545px;
+    left: 662px;
+    background-color: #3b2323;
+    border-radius: 40px 20px;
+    transform: rotate(14deg);
+}
+
+.leg-left-finger-1 {
+    position: absolute;
+    width: 6px;
+    height: 35px;
+    top: 77px;
+    left: -17px;
+    background-color: #3b2323;
+    border-radius: 64px 20px;
+    transform: rotate(70deg);
+}
+
+.leg-left-finger-2 {
+    position: absolute;
+    width: 8px;
+    height: 36px;
+    top: 87px;
+    left: -10px;
+    background-color: #3b2323;
+    border-radius: 6px 12px 29px 14px;
+    transform: rotate(28deg);
+}
+
+.leg-left-finger-3 {
+    position: absolute;
+    width: 8px;
+    height: 36px;
+    top: 87px;
+    left: 3px;
+    background-color: #3b2323;
+    border-radius: 1px 5px 4px 15px;
+    transform: rotate(338deg);
+}
+
+.leg-left-finger-4 {
+    position: absolute;
+    width: 6px;
+    height: 24px;
+    top: 81px;
+    left: 12px;
+    background-color: #3b2323;
+    border-radius: 1px 5px 4px 36px;
+    transform: rotate(285deg);
+}
+
+/* Animations */
+@keyframes robin-bouncing {
+    0% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform-origin: center;
+        transform: translateY(-10px);
+
+    }
+}
+
+@keyframes tiny-legs-move {
+    0% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(4px);
+    }
+}
+
+@keyframes wing-clapping {
+    0% {
+        width: 73px;
+        height: 211px;
+        top: -180px;
+        left: -5px;
+        transform-origin: bottom;
+        transform: rotate(80deg);
+    }
+
+    100% {
+        width: 73px;
+        height: 211px;
+        top: -180px;
+        left: -5px;
+        transform-origin: bottom;
+        transform: rotate(70deg);
+
+    }
+}
+
+@keyframes tail-bobbing {
+    0% {
+        width: 160px;
+        height: 107px;
+        top: 468px;
+        left: 701px;
+        transform-origin: left;
+        transform: rotate(350deg);
+    }
+
+    100% {
+        width: 160px;
+        height: 107px;
+        top: 468px;
+        left: 701px;
+        transform-origin: left;
+        transform: rotate(356deg);
+    }
+}

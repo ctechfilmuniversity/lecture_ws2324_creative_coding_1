@@ -1,0 +1,46 @@
+#canvas {
+    position: absolute;
+}
+
+#bird {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    z-index: 1;
+    border-radius: 64px 46px 10px 10px;
+}
+
+#eye {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 26px;
+    left: 26px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#eye::after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    top: 8px;
+    left: 1px;
+    background-color: rgb(38, 35, 35);
+    z-index: 1;
+    border-radius: 50%;
+}
+
+#beak {
+    position: relative;
+    width: 0;
+    height: 0;
+    top: 13px;
+    left: -38px;
+    border-top: 20px solid transparent;
+    border-right: 40px solid rgb(135, 67, 22);
+    border-bottom: 20px solid transparent;
+}

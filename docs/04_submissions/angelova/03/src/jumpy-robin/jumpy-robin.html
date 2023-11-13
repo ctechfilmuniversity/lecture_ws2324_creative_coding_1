@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/instructions-styles.css">
+    <link rel="stylesheet" href="./styles/jumpy-robin-styles.css">
+    <title>Jumpy robin</title>
+</head>
+<body>
+    <div id="creative-instructions">
+        <div id="creative-instructions--text">
+            <p>1 -- Imagine small circles.</p>
+            <p>2 -- Imagine many of them.</p>
+            <p>3 -- Imagine them in random autumn colors.</p>
+            <p>4 -- Are you ready?</p>
+            <p>5 -- Then press the button below!</p>
+        </div>
+        <button id="the-button" onclick="displayContent();">The button</button>
+    </div>
+    <h1 id="message">Oh, wow, thanks!</h1>
+    <div id="scene" class="scene">
+        <div class="robin">
+            <div class="head">
+                <div class="beak"></div>
+                <div class="eye"></div>
+                <div class="head-mask--orange"></div>
+                <div class="head-mask--grey"></div>
+            </div>
+            <div class="body">
+                <div class="wing"></div>
+                <div class="body-mask--orange"></div>
+                <div class="body-mask--grey"></div>
+            </div>
+            <div class="tail"></div>
+            <div class="legs">
+                <div class="leg-right">
+                    <div class="leg-right-finger-1"></div>
+                    <div class="leg-right-finger-2"></div>
+                    <div class="leg-right-finger-3"></div>
+                    <div class="leg-right-finger-4"></div>
+                </div>
+                <div class="leg-left">
+                    <div class="leg-left-finger-1"></div>
+                    <div class="leg-left-finger-2"></div>
+                    <div class="leg-left-finger-3"></div>
+                    <div class="leg-left-finger-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<canvas id="canvas"></canvas>
+<script src="./src/bird-food.js"></script>
+</html>
