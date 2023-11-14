@@ -20,9 +20,9 @@ In this session we are dealing with the topic of *connection* and what the web m
 * [Creative Coding I](#creative-coding-i)
 * [Session 04 - Connection (10 points)](#session-04---connection-10-points)
     * [The Web](#the-web)
-        * [Task 04.02 - Ingredient of the Web](#task-0402---ingredient-of-the-web)
+        * [Task 04.01 - Ingredient of the Web](#task-0401---ingredient-of-the-web)
     * [Connection](#connection)
-        * [Task 04.03 - Connection to the Outside](#task-0403---connection-to-the-outside)
+        * [Task 04.02 - Connection to the Outside](#task-0402---connection-to-the-outside)
     * [Learnings](#learnings)
 
 
@@ -30,14 +30,14 @@ In this session we are dealing with the topic of *connection* and what the web m
 
 Re-capture [Script 06 - The Web](../../02_scripts/cc1_ws2324_06_web_script.md).
 
-### Task 04.02 - Ingredient of the Web
+### Task 04.01 - Ingredient of the Web
 
 Investigate and adjust the `.html` and `.css` of a p5 sketch of your choice. You need to make changes to both files and the changes need to be visible on the web page. Changes can be experimental, the outcome doesn't need to look good.
 
 
 ## Connection
 
-### Task 04.03 - Connection to the Outside
+### Task 04.02 - Connection to the Outside
 
 Let's start with connecting to each other. This task has to be done in pairs 🥳. I will try to dedicate some time to work on this task during next week's class (16.11.).
 
