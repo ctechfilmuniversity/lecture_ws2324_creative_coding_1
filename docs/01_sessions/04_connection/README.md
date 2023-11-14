@@ -19,38 +19,12 @@ In this session we are dealing with the topic of *connection* and what the web m
 
 * [Creative Coding I](#creative-coding-i)
 * [Session 04 - Connection (10 points)](#session-04---connection-10-points)
-    * [Setup](#setup)
-        * [Task 04.01](#task-0401)
-            * [p5 With a Local Server](#p5-with-a-local-server)
-            * [Optional Level 2 - p5 Instantiation](#optional-level-2---p5-instantiation)
     * [The Web](#the-web)
         * [Task 04.02 - Ingredient of the Web](#task-0402---ingredient-of-the-web)
     * [Connection](#connection)
         * [Task 04.03 - Connection to the Outside](#task-0403---connection-to-the-outside)
     * [Learnings](#learnings)
 
-
-## Setup
-
-### Task 04.01
-
-#### p5 With a Local Server
-
-Create a setup with a local webserver and be able to work with p5 locally. We will go over what a local server is next class (16.11.) but you can also find the necessary information here:
-
-* Install a local webserver with [the VSCode extension](../../02_scripts/cc1_ws2324_02_setup_script.md#webservers)
-* Read through the [Example: A Local Setup For p5.js](../../02_scripts/cc1_ws2324_02_setup_script.md#example-a-local-setup-for-p5js)
-
-
-#### Optional Level 2 - p5 Instantiation
-
-This option is not referring to a different setup for working with the p5 library but it deals with code refactoring that would be needed to use p5 in a safe and robust manner as part of a professional website: namely not globally but in a well-defined scope. 
-
-Create a p5 instance, which keeps all variables out of the global scope of your page and add the p5 instance to a basic html page. 
-
-You can follow p5's documentation on [Global and instance mode](https://github.com/processing/p5.js/wiki/Global-and-instance-mode).
-
-For this option also submit all necessary files (e.g. `.html`) that demonstrate your project setup.
 
 ## The Web 
 
