@@ -18,3 +18,4 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
     * [Submissions - Concept Emergence](02_emergence/02_submissions_03_emergence.md)
 * [Session 03 - Instructions](03_instructions/README.md)
 * [Session 04 - Connection](04_connection/README.md)
+* [Session 05 - Still Connecting](05_still_connecting/README.md)
