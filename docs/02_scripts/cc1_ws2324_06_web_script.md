@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Script
-nav_exclude: true
+title: Script 05 - The Web
+parent: Scripts
+nav_order: 4
 ---
 
 # Creative Coding I: Design & Communication
@@ -9,10 +10,10 @@ nav_exclude: true
 Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babelsberg KONRAD WOLF
 
 
-# Script 05: The Web
+# Script 05 - The Web
 
 * [Creative Coding I: Design \& Communication](#creative-coding-i-design--communication)
-* [Script 05: The Web](#script-05-the-web)
+* [Script 05 - The Web](#script-05---the-web)
     * [The Opte Internet Map](#the-opte-internet-map)
     * [How the Web Works](#how-the-web-works)
     * [A Brief History of the Web](#a-brief-history-of-the-web)
