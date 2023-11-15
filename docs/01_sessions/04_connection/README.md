@@ -45,6 +45,8 @@ Create a sketch that uses some form of input live-stream. The easiest input is t
 
 Submit a link to your sketch (or submit all source files) and add or link results in your submission file.
 
+*On a side note*: Each team member should make a submission. However, those submissions can be identical (or one links to the other).
+
 ## Learnings
 
 Please summarize your personal learnings (text or bullet points - whatever you prefer). What was challenging for you in this session? How did you challenge yourself?

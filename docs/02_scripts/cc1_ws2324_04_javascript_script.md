@@ -69,6 +69,13 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babel
             * [Await](#await)
             * [Example](#example)
             * [Summary](#summary)
+    * [Modules](#modules)
+        * [Export](#export)
+            * [Named Exports](#named-exports)
+            * [Default Exports](#default-exports)
+        * [Import](#import)
+            * [Import From Named Exports](#import-from-named-exports)
+            * [Import From Default Exports](#import-from-default-exports)
     * [Style Guide](#style-guide)
         * [Spaces and Tabs](#spaces-and-tabs)
 
@@ -2367,6 +2374,108 @@ With `async/await` we rarely need to write `promise.then/catch`, but we still sh
 [[javascript.info]](https://javascript.info/async-await)
 
 
+## Modules
+
+JavaScript modules allow you to break up your code into separate files. This makes it easier to maintain the code-base. JavaScript modules rely on the `import` and `export` statements.
+
+Keep in mind, that modules only work with the HTTP(s) protocol. A web-page opened via the file:// protocol cannot use import / export.
+
+
+### Export
+
+You can export a function or variable from any file. Exported values can then be imported into other programs with the import declaration. 
+
+There are two types of exports, *named* exports and *default* exports. You can have multiple named exports per module but only one default export. 
+
+#### Named Exports
+
+You can create named exports for specific lines individually, or all at once at the bottom of a file.
+
+For an in-line individual export, after the `export` keyword, you can use `let`, `const`, and `var` declarations, as well as `function` or `class` declarations: 
+
+```js
+// person.js
+export const name = "Jesse";
+export const age = 40;
+```
+
+For exporting all at once at the bottom, you can also use the `export { name1, name2 }` syntax to export a list of names declared elsewhere:
+
+```js
+// person.js
+const name = "Jesse";
+const age = 40;
+
+export {name, age};
+```
+
+#### Default Exports
+
+You can only have one default export in a file.
+
+```js
+// message.js
+const message = () => {
+    const name = "Jesse";
+    const age = 40;
+    return name + ' is ' + age + 'years old.';
+};
+
+export default message;
+```
+
+Named exports are useful when you need to export several values. When importing this module, named exports must be referred to by the exact same name (optionally renaming it with as), but the default export can be imported with any name. For example:
+
+```js
+// file test.js
+const k = 12;
+export default k;
+```
+
+```js
+// some other file
+import m from './test'; // note that we have the freedom to use import m instead of import k, because k was default export
+console.log(m);        // will log 12
+```
+
+You can also rename named exports to avoid naming conflicts:
+
+```js
+export {
+  myFunction as function1,
+  myVariable as variable,
+};
+```
+
+
+### Import
+
+You can read-only import modules into a file in two ways, based on if they are *named* exports or *default* exports. Named exports are constructed using curly braces. Default exports are not.   
+
+In total there are four forms of [import declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import):
+
+* Named import: import { export1, export2 } from "module-name";
+* Default import: import defaultExport from "module-name";
+* Namespace import: import * as name from "module-name";
+* Side effect import: import "module-name";
+
+`import` declarations can only be present in modules, and only at the top-level (i.e. not inside blocks, functions, etc.). 
+
+#### Import From Named Exports
+
+Import named exports from the file `person.js`:
+
+```js
+import { name, age } from "./person.js";
+```
+
+#### Import From Default Exports
+
+Import a default export from the file `message.js`:
+
+```js
+import message from "./message.js";
+```
 
 ## Style Guide
 
