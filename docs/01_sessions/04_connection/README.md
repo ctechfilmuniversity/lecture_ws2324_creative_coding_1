@@ -13,7 +13,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  \| Film University Babe
 
 # Session 04 - Connection (10 points)
 
-Please complete this session by November 21st. Completing the session should take < 4h.  
+Please complete this session by November 23rd, 10:00 (just before class). Completing the session should take < 4h.  
 
 In this session we are dealing with the topic of *connection* and what the web means. In terms of tech, this session introduces you to p5 libraries and the different components a website is made of. Also, this will be the last exercise with p5 and in 2D. 
 

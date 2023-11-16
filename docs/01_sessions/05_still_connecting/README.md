@@ -13,7 +13,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  \| Film University Babe
 
 # Session 05 - Still Connecting
 
-Please complete this session by November 21st. Completing the session should take < 1h.  
+Please complete this session by November 23rd, 10:00 (just before class). Completing the session should take < 1h.  
 
 This not really a new session but it continues the topic of *being online* and how to develop for the www. Next up: 3D 🤓!
 
