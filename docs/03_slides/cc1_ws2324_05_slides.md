@@ -941,7 +941,7 @@ You can see an example error message in your console when opening the [bug.html]
 
 ## Print Outs
 
-* [`log()`](https://developer.mozilla.org/en-US/docs/Web/API/Console/log) prints to the console
+* [`console.log()`](https://developer.mozilla.org/en-US/docs/Web/API/Console/log) prints to the console
 
 ???
 .task[COMMENT:]  
