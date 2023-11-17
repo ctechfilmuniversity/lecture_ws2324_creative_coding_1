@@ -53,6 +53,13 @@ Seeing you is happiness.
 
 Write instructions that are in themselves a creative output.
 
+#### Answer:
+
+For all three tasks I created one [-> sketch](https://editor.p5js.org/adamtgarde/full/oI-LQYeqU).
+
+This is how it might look like:
+![](cc1_ws2324_03_streicher.jpg)
+
 
 ## Learnings
 
@@ -66,10 +73,12 @@ Learnings:
 - smoothing movement through lerp function
 - circular movement with sin and cos angle (+offset)
 - syntactic sugar through arrays in for loops
+- particle system classes
+- preloading sound
 
 Challenges:
 - syntax (implementation of all the above brought errors at first)
-- again approx. 2 hours of coding train p5js lessons
+- approx. 3 hours of coding train p5js lessons
 - this is by far the most complex code I've ever written
 
 
