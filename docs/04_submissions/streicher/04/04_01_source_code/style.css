@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(28, 28, 28);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+p1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#wrapper {
+  border: 1px solid #000;
+}
+
+#container {
+  position: relative;
+  width: 720px;
+  float: left;
+  padding: 10px;
+  border-right: 1px solid #000;
+}
+
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -120%);
+  font-weight: bold;
+  font-size: 20px;
+}
