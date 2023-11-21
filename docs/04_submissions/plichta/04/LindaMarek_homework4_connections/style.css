@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    min-height: 0;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    font-family: Calibri, Helvetica, Arial, sans-serif; /* Add your preferred modern font */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+h1 {
+    font-size: large;
+    padding: 0;
+}
+h2 {
+    font-size: medium;
+}
+
+p {
+    color: #778899;  /* Light gray-blue color */
+}
