@@ -20,20 +20,20 @@ var img
     
 
     // Posenet Stuff
-    // capture = createCapture(VIDEO)
-    // capture.size(windowWidth, windowWidth * capture.height / capture.width)
-    // capture.hide();
-    // poseNet = new ml5.poseNet(capture, modelReady)
-    // poseNet.on('pose', function(results) {
-    //   poses = results
-    // })
+    capture = createCapture(VIDEO)
+    capture.size(windowWidth, windowWidth * capture.height / capture.width)
+    capture.hide();
+    poseNet = new ml5.poseNet(capture, modelReady)
+    poseNet.on('pose', function(results) {
+    poses = results
+    }) 
   }
   
   function draw() {
-    background(255,15);
-    //image(capture,0,0,windowWidth, windowWidth * capture.height / capture.width);
+    //background(255,15);
+    image(capture,0,0,windowWidth, windowWidth * capture.height / capture.width);
     //image(img,0,0)
-    updateParticles()
+    //updateParticles()
     drawShapes()   
     
     if (mouseIsPressed === true) {
@@ -59,10 +59,11 @@ var img
       for (var j = 0; j < currentPose.keypoints.length; j++) {
         var keypoint = currentPose.keypoints[j]
 
-        if (keypoint.part === "nose" && keypoint.score > 0.2 ) {
+        if (keypoint.score > 0.2 ) {
           for(let i = 0; i< num;i++){     
             if(random(1)>0.8){
-              Particles[i].drawLines(createVector(keypoint.position.x,keypoint.position.y))
+              //Particles[i].drawLines(createVector(keypoint.position.x,keypoint.position.y))
+              circle(keypoint.position.x,keypoint.position.y,50,50)
             }
           }
         }
@@ -89,11 +90,7 @@ var img
     }
   }
 
- function colorParticlesFromImage(_img){
-  for(let i = 0; i< num;i++){
-    Particles[i].setColor(_img.get(Particles[i].getPos().x,Particles[i].getPos().y))
-  }
- }
+
 
  function onScreen(v){
   return v.x>= 0 && v.x <=windowWidth && v.y>=0 && v.y <=windowHeight
