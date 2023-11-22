@@ -23,3 +23,4 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 * [Session 04 - Connection](04_connection/README.md)
 * [Session 05 - Still Connecting](05_still_connecting/README.md)
 * [Session 06 - Space](06_space/README.md)
+    * [Code](06_space/code/)

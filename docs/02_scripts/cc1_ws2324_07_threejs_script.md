@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Script
-nav_exclude: true
+title:  Script 07 - Three.js
+parent: Scripts
+nav_order: 6
 ---
 
 # Creative Coding I: Design & Communication
@@ -10,7 +11,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babel
 
 ---
 
-# Script 07: Three.js
+# Script 07 - Three.js
 
 The first version of this script was written by:
   
@@ -21,7 +22,7 @@ By now, the script has been heavily updated by Lena.
 ---
 
 * [Creative Coding I: Design \& Communication](#creative-coding-i-design--communication)
-* [Script 07: Three.js](#script-07-threejs)
+* [Script 07 - Three.js](#script-07---threejs)
     * [*What Are The Spatial Properties Of The Virtual Space We Use?*](#what-are-the-spatial-properties-of-the-virtual-space-we-use)
     * [*How Do Analog And Virtual Spatial Spaces Relate To Each Other?*](#how-do-analog-and-virtual-spatial-spaces-relate-to-each-other)
         * [*What Makes Analog Space Unique?*](#what-makes-analog-space-unique)

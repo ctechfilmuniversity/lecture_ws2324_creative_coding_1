@@ -19,3 +19,4 @@ In this section you find all slides for the course.
 * [Session 03](cc1_ws2324_03_slides.html)
 * [Session 04](cc1_ws2324_04_slides.html)
 * [Session 05](cc1_ws2324_05_slides.html)
+* [Session 06](cc1_ws2324_06_slides.html)
