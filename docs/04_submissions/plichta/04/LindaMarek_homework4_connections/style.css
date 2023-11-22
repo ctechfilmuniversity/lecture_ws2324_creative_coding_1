@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    min-height: 0vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+    color: #DC979C;
+}
+
+.h1 {
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.normalText {
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.link {
+    color: #DC979C; /* Default link color */
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #DCBECF; /* Visited link color */
+}
+
+.link:hover, .link:active {
+    color: #DC979C; /* Hover and active link color */
+    text-decoration: underline;
+}

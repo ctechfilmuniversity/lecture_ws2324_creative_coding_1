@@ -162,12 +162,12 @@ function assignCoordinates() {
 }
 
 function drawLinesOnFace() {
-    let amountLines = (countFaceLines * 0.7) * normalizedDistanceBetweenFaces;
+    let amountLines = (countFaceLines * 0.15) * normalizedDistanceBetweenFaces;
     if (amountLines >= countFaceLines) { //should not happen but just to be sure
         amountLines = countFaceLines;
     }
-    let bezierSize = 10 * normalizedDistanceBetweenFaces;
-    let curviness = 3 * normalizedDistanceBetweenFaces;
+    let bezierSize = 5; //* (normalizedDistanceBetweenFaces/6);
+    let curviness = 10 * (normalizedDistanceBetweenFaces/2);
     console.log(curviness);
     if (curviness < 1.5) {
         curviness = 1.5;
