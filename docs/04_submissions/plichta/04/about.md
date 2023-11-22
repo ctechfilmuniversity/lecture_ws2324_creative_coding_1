@@ -20,6 +20,7 @@ The idea of "connecting" two faces came up really early, so we brainstormed a bi
 ![wip_image_1.png](pictures%2Fwip_image_1.png)
 ![wip_image_2.jpg](pictures%2Fwip_image_2.jpg)
 ![wip_image_4.gif](pictures%2Fwip_image_4.gif)
+![video](Bildschirmaufnahme 2023-11-22 um 16.05.27.mov)
 
 
 We also found the Perlin Noise example from the c2.js library very interesting (https://renyuan.io/c2.js/examples.html?name=Perlin),so we wanted to incorporate this into the face tracking. The idea was to take the term "connecting" very literal and connect the two faces by electricity.
