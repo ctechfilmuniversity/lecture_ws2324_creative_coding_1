@@ -276,8 +276,8 @@ let object_name = {
 
 ```js
 let user = {        // an object
-  name: "Sully",    // by key "name" store value "Sully"
-  age: 30           // by key "age" store value 30
+  name: "Sully",    // the key "name" stores the value "Sully"
+  age: 30           // the key "age" stores the value 30
 };
 ```
 
@@ -522,7 +522,7 @@ class Cat
     getName() { console.log('My name is', this.name) }
 }
 
-let ernie = new Cat('Ernie', age);
+let ernie = new Cat('Ernie', 5);
 console.log(ernie); // -> Cat { name: 'Ernie', age: 5 }
 ernie.makeSound();  // -> meow
 ```

@@ -22,3 +22,4 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
     * [Submissions - Instructions](03_instructions/03_submissions_03_instructions.md)
 * [Session 04 - Connection](04_connection/README.md)
 * [Session 05 - Still Connecting](05_still_connecting/README.md)
+* [Session 06 - Space](06_space/README.md)
