@@ -87,11 +87,11 @@ For this tasked I focused on getting to know the basic functions of three.js whi
 
 I also made a small recording of the scene which you can check out [here](https://youtu.be/5KiV13Wa-Qg).
 
-![Image1](cc1_ws2324_06_01_rueth.png)
-![Image2](cc1_ws2324_06_02_rueth.png)
-![Image1](cc1_ws2324_06_03_rueth.png)
-![Image1](cc1_ws2324_06_04_rueth.png)
-![Image1](cc1_ws2324_06_05_rueth.png)
+![Image1](cc1_ws2324_06_01_rueth.PNG)
+![Image2](cc1_ws2324_06_02_rueth.PNG)
+![Image1](cc1_ws2324_06_03_rueth.PNG)
+![Image1](cc1_ws2324_06_04_rueth.PNG)
+![Image1](cc1_ws2324_06_05_rueth.PNG)
 
 ## Learnings
 
