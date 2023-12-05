@@ -39,6 +39,10 @@ In this session we are dealing with the topic of _space_ and what types of virtu
 
 ### Task 06.01 - Your First Scene
 
+My [scene](./assignment%2006/06_streicher.html).
+
+![picture1](./images/cc1_ws2324_06_01_02_streicher.jpg)
+![picture2](./images/cc1_ws2324_06_01_01_streicher.jpg)
 
 *This is the task that will count for both, CC1 and TBAG.*
 
@@ -85,6 +89,21 @@ Submit your JavaScript file and add or link result images in your submission fil
 ## Learnings
 
 Please summarize your personal learnings (text or bullet points - whatever you prefer). What was challenging for you in this session? How did you challenge yourself?
+
+- learned threejs basics
+- learned function of every line in example code
+- learned about different material types
+- learned about importing obj's and ply's
+- learned about shadow issues connected to them
+- remeberered that I should use basic geo for this task
+- learned about CubeCamera and CubeRenderTarget
+- learned rendering options and order
+- replaced recursive animate renderflow with setAnimationLoop
+- scratched surface of particle systems or "points"
+- started to add more cubes
+- tried to write function to make cube generation easier - failed
+- maybe should have used for-loop like in example
+- ran out of time
 
 
 ---
