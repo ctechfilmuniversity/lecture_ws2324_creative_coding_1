@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="000ef7d1-0977-4bd0-b488-0b24890b8127" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/04_submissions/plichta/04/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/04_submissions/plichta/04/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/04_submissions/plichta/04/pictures/Bildschirmaufnahme 2023-11-22 um 16.05.27.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/04_submissions/plichta/04/LindaMarek_homework4_connections/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/04_submissions/plichta/04/LindaMarek_homework4_connections/sketch.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -53,7 +54,11 @@
       <option name="presentableId" value="Default" />
       <updated>1700644645532</updated>
       <workItem from="1700644646545" duration="5585000" />
-      <workItem from="1700665194745" duration="1353000" />
+      <workItem from="1700665194745" duration="1397000" />
+      <workItem from="1700730362241" duration="1883000" />
+      <workItem from="1700732285485" duration="140000" />
+      <workItem from="1700740753729" duration="67000" />
+      <workItem from="1700740828817" duration="1292000" />
     </task>
     <servers />
   </component>

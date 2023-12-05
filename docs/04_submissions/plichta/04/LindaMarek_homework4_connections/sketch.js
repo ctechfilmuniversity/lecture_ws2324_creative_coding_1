@@ -54,6 +54,7 @@ function setup() {
 
 
 function draw() {
+    
     image(video, 0, 0, width, height);
     //filter(GRAY);
     //drawFaceMesh();

@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs/04_submissions/plichta/05/Unity2022_Assets/Assets" vcs="Git" />
   </component>
 </project>
