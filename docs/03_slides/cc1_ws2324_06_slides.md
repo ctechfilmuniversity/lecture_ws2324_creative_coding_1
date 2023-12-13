@@ -12,9 +12,15 @@ class: center, middle, inverse
 #### Film University Babelsberg KONRAD WOLF
 
 
+---
+layout:false
 
+## Connection
+
+### Task 04.02 - Connection to the Outside
 
 ---
+template:inverse
 
 ### Session 06:  
 
@@ -27,7 +33,7 @@ class: center, middle, inverse
 * What do we understand as space?
 
 ---
-layout:false
+
 
 <img src="../02_scripts/img/space/dalle_space_01.jpg" alt="dalle_space_01" style="width:60%;">  Dall-E: *Space*
 
@@ -62,7 +68,7 @@ layout:false
 template: inverse
 
 
-### *What Are The Spatial Properties Of The Virtual Spatial We Use?*  
+### *What Are The Spatial Properties Of The Virtual Spaces We Use?*  
 
 
 ???
@@ -102,7 +108,7 @@ template: inverse
 template: inverse
 
 
-### *How Do Analog And Virtual Spatial Spaces Relate To Each Other*  
+### *How Do Analog And Virtual Spatial Spaces Relate To Each Other?*  
 
 
 ???
@@ -210,6 +216,12 @@ With this session you will
 .center[<img src="../02_scripts/img/space/scene_advanced.png" alt="scene_advanced" style="width:70%;">]
 
 
+???
+.task[COMMENT:]  
+
+* https://ctechfilmuniversity.github.io/lecture_ws2324_creative_coding_1/01_sessions/06_space/code/
+
+
 ---
 template:inverse
 
@@ -220,10 +232,10 @@ template:inverse
 ## What is three.js ?
 
 --
-* 3D graphics in a web browser
+* Goal: enable 3D graphics in a web browser
 
 --
-* **Open-source library** for JavaScript using WebGL
+* Open-source library for JavaScript using WebGL
 
 --
 * Simplifies WebGL tools and environments, e.g.,  geometries, materials, lighting, audio
@@ -289,11 +301,16 @@ WebGL is a JavaScript API for rendering interactive 2D and 3D graphics. It is ex
 
 As you can see it it's quite **a lot** of code for a simple red triangle. This is where Three.js comes in to simplify the creation of 3D graphics with WebGL.
 
-
 ---
 .header[three.js]
 
-## Alternatives: [babylon.js](https://www.babylonjs.com/)
+## Alternatives
+
+
+---
+.header[three.js | Alternatives]
+
+## [babylon.js](https://www.babylonjs.com/)
 
 <video height="480" controls="controls">
 <source src="../02_scripts/img/space/babylon_01.mp4" type="video/mp4">
@@ -306,9 +323,9 @@ As you can see it it's quite **a lot** of code for a simple red triangle. This i
 
 
 ---
-.header[three.js]
+.header[three.js | Alternatives]
 
-## Alternatives: [p5.js](https://p5js.org/)
+## [p5.js](https://p5js.org/)
 
 `createCanvas(windowWidth, windowHeight, WEBGL);`
   
@@ -499,7 +516,7 @@ We need the above code due to the way the three.js library is constructed. Rough
 
 --
 
-> What to import how is given by the library. We simply have to follow the installation guide.
+> What to import how is given by the library. Ideally, we follow the installation guide.
 
 ---
 .header[three.js | Installation]
@@ -568,7 +585,9 @@ Eventually, we are going to import multiple modules
 ---
 .header[three.js]
 
-## The Canvas and JavaScript File
+## The Html Canvas and JavaScript File
+
+--
 
 ```html
   <body>

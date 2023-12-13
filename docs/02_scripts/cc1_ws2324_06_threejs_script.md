@@ -11,7 +11,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de \| Film University Babel
 
 ---
 
-# Script 07 - Three.js
+# Script 06 - Three.js
 
 The first version of this script was written by:
   
@@ -22,10 +22,10 @@ By now, the script has been heavily updated by Lena.
 ---
 
 * [Creative Coding I: Design \& Communication](#creative-coding-i-design--communication)
-* [Script 07 - Three.js](#script-07---threejs)
+* [Script 06 - Three.js](#script-06---threejs)
     * [*What Are The Spatial Properties Of The Virtual Space We Use?*](#what-are-the-spatial-properties-of-the-virtual-space-we-use)
     * [*How Do Analog And Virtual Spatial Spaces Relate To Each Other?*](#how-do-analog-and-virtual-spatial-spaces-relate-to-each-other)
-        * [*What Makes Analog Space Unique?*](#what-makes-analog-space-unique)
+    * [*What Makes Analog Space Unique?*](#what-makes-analog-space-unique)
     * [Threejs](#threejs)
         * [WebGL](#webgl)
         * [Alternatives](#alternatives)
@@ -131,7 +131,7 @@ Analog and virtual spatial spaces are distinct concepts, but they can be related
 While analog and virtual spatial spaces have their unique characteristics, the relationship between them is often complementary. Virtual spaces can draw inspiration from, simulate, or enhance aspects of analog space, providing new opportunities for exploration, creativity, and interaction. Additionally, technologies like augmented reality seek to blend analog and virtual elements, creating mixed or augmented spatial experiences. -->
 
 
-### *What Makes Analog Space Unique?*
+## *What Makes Analog Space Unique?*
 
 
 ---
