@@ -1010,21 +1010,44 @@ In a *synchronous* programming model, things happen one at a time.
   
 A **single thread** of control:
 
-.center[<img src="../02_scripts/img/04/program_flow_sync.png" style="width:90%;">]
+```
+1 thread ->   |<---A---->||<----B---------->||<------C----->|
+```
 
-.footnote[[[Eloquent Javascript]](../02_scripts/https6//eloquentjavascript.net/11_async.html)]
+.footnote[[[Eloquent Javascript]](https://eloquentjavascript.net/11_async.html), [[stackoverflow]](https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-is-the-difference)]
 
 ???
 
 *synchronous*: When you call a function that performs a long-running action, it returns only when the action has finished and it can return the result. This stops your program for the time the action takes.
+  
+Synchronous or Synchronized means "connected", or "dependent" in some way. In other words, two synchronous tasks must be aware of one another, and one task must execute in some way that is dependent on the other, such as wait to start until the other task has completed.
+  
+> You are in a queue to get a movie ticket. You cannot get one until everybody in front of you gets one, and the same applies to the people queued behind you.
+
+  
+
+* The thick lines represent time the program spends running normally, and the thin lines represent time spent waiting for the network. 
+* In the synchronous model, the time taken by the network is part of the timeline for a given thread of control.
+
+https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-is-the-difference
 
 --
   
 **Parallel threads** of control:
 
-.center[<img src="../02_scripts/img/04/program_flow_sync_threads.png" style="width:90%;">]
+```
+thread A -> |<---A---->|   
+                        \  
+thread B ------------>   ->|<----B---------->|   
+                                              \   
+thread C ---------------------------------->   ->|<------C----->| 
+```
 
-.footnote[[[Eloquent Javascript]](../02_scripts/https6//eloquentjavascript.net/11_async.html)]
+
+???
+.task[COMMENT:]  
+
+A thread is another running program whose execution may be interleaved with other programs by the operating system—since most modern computers contain multiple processors, multiple threads may even run at the same time, on different processors. A second thread could start the second request, and then both threads wait for their results to come back, after which they resynchronize to combine their results.
 
 
 ---
@@ -1036,6 +1059,19 @@ An *asynchronous* model allows multiple things to happen at the same time.
 ???
 
 *asynchronous*: When you start an action, your program continues to run. When the action finishes, the program is informed and gets access to the result (for example, the data read from disk).
+  
+Asynchronous means they are totally independent and neither one must consider the other in any way, either in the initiation or in execution.
+
+> You are in a restaurant with many other people. You order your food. Other people can also order their food, they don't have to wait for your food to be cooked and served to you before they can order. In the kitchen restaurant workers are continuously cooking, serving, and taking orders. People will get their food served as soon as it is cooked.
+
+  
+In the asynchronous model, starting a network action conceptually causes a split in the timeline. The program that initiated the action continues running, and the action happens alongside it, notifying the program when it is finished.
+  
+Another way to describe the difference is that waiting for actions to finish is **implicit** in the synchronous model, while it is **explicit**, under our control, in the asynchronous one.
+  
+Asynchronicity cuts both ways. It makes expressing programs that do not fit the straight-line model of control easier, but it can also make expressing programs that do follow a straight line more awkward. We’ll see some ways to address this awkwardness later in the chapter.
+
+Both of the important JavaScript programming platforms—browsers and Node.js—make operations that might take a while asynchronous, rather than relying on threads. Since programming with threads is notoriously hard (understanding what a program does is much more difficult when it’s doing multiple things at once), this is generally considered a good thing.
 
 
 --
@@ -1043,7 +1079,16 @@ An *asynchronous* model allows multiple things to happen at the same time.
   
 **Async threads** of control:  
   
-.center[<img src="../02_scripts/img/04/program_flow_async.png" style="width:90%;">]
+```
+         A-Start ------------------------------------------ A-End   
+           | B-Start -----------------------------------------|--- B-End   
+           |    |      C-Start ------------------- C-End      |      |   
+           |    |       |                           |         |      |
+           V    V       V                           V         V      V      
+1 thread->|<-A-|<--B---|<-C-|-A-|-C-|--A--|-B-|--C-->|---A---->|--B-->| 
+```
+
+.footnote[[[Eloquent Javascript]](https://eloquentjavascript.net/11_async.html), [[stackoverflow]](https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-is-the-difference)]
 
 
 ---
@@ -1255,7 +1300,7 @@ console.log(lengths);
 --
 
 ```js
-let sum = [15.5, 2.3, 1.1, 4.7].reduce(getSum, 0);
+let sum = [15.6, 2.3, 1.1, 4.7].reduce(getSum, 0);
 
 function getSum(total, num) 
 {
@@ -1609,6 +1654,8 @@ An arrow comes after the list of parameters and is followed by the function’s 
 `this input => this result`
 
 
+
+
 ---
 .header[Higher Order Functions]
 
@@ -1679,6 +1726,60 @@ const myFunction = param1 =>
 {
     // do something
 }
+```
+
+---
+.header[Higher Order Functions ]
+
+## Arrow Functions
+
+
+```js
+let lengths = ["Bilbo", "Gandalf", "Nazgul"].map(getLength);
+
+function getLength(item)
+{
+    return item.length;
+}
+
+console.log(lengths); // 5,7,6
+```
+  
+
+```js
+let lengths = ["Bilbo", "Gandalf", "Nazgul"].map(function (item)
+{
+    return item.length;
+});
+
+console.log(lengths); // 5,7,6
+```
+
+---
+.header[Higher Order Functions ]
+
+## Arrow Functions
+
+
+```js
+let lengths = ["Bilbo", "Gandalf", "Nazgul"].map(getLength);
+
+function getLength(item)
+{
+    return item.length;
+}
+
+console.log(lengths); // 5,7,6
+```
+  
+
+```js
+let lengths = ["Bilbo", "Gandalf", "Nazgul"].map( item =>
+{
+    return item.length;
+});
+
+console.log(lengths); // 5,7,6
 ```
 
 ---
@@ -1838,9 +1939,8 @@ The best syntax for higher order functions is the **arrow syntax**.
 
 ## Asynchronism
 
-We just saw the tip of the iceberg! More asynchron functionality syntax:
+We just saw the tip of the iceberg! The most relevant asynchron functionality syntax:
 
-* Error First Functions
 * Promises
 * then..catch
 * Async / Await
@@ -1889,9 +1989,28 @@ mySetTimeout(print, 500, "Time is up");
 
 function print(error, strData)
 {
+    //Catch the error or:
     console.log(strData);
 }
 ```
+
+---
+.header[Asynchronism]
+
+## Error-First Functions
+
+Functions have not only the option to hand data back and forth but also **errors**.  
+This means that callback functions get both, an error and data as input arguments.
+
+```js
+mySetTimeout((error, strData) => 
+{
+    //Catch the error or:
+    console.log(strData);
+
+}, 500, "Time is up");
+```
+
 
 --
 
