@@ -1,0 +1,97 @@
+.button-blue {
+    font-size: 74px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-color: rgb(0, 13, 255);
+    border-right-color: rgb(112, 35, 255);
+    border-top-color: rgb(105, 112, 255);
+    border-bottom-color: rgb(0, 13, 255);
+    -unity-text-outline-width: 0;
+    width: auto;
+    text-shadow: 14px 4px 22px rgba(255, 0, 0, 0);
+    border-right-width: 4px;
+    border-left-width: 4px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(255, 28, 211);
+    border-top-width: 2px;
+    margin-top: 71px;
+    border-bottom-width: 7px;
+    -unity-font-style: normal;
+    margin-right: 20px;
+    -unity-font: resource('consola');
+    -unity-font-definition: resource('consola SDF');
+}
+
+.button-blue:hover {
+    scale: 1.05 1.05;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out-elastic;
+    color: rgb(255, 245, 0);
+}
+
+.button-blue:active {
+    scale: 1 1;
+    -unity-text-outline-color: rgba(192, 50, 50, 0);
+    text-shadow: 0 0 0 rgba(190, 35, 35, 0);
+    color: rgb(171, 0, 63);
+    -unity-text-outline-width: 0;
+    margin-bottom: 0;
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+}
+
+.unity-min-max-slider__tracker {
+    border-width: 5px;
+    background-color: cadetblue;
+    border-color: blue;
+}
+
+.unity-min-max-slider__min-thumb {
+    border-width: 0;
+    min-height: 30px;
+    background-color: yellow;
+}
+
+.unity-min-max-slider__max-thumb {
+    border-width: 0;
+    min-height: 30px;
+    background-color: yellow;
+}
+
+.unity-min-max-slider__dragger {
+    border-width: 0;
+    margin-top: -1px;
+    background-color: lightpink;
+}
+
+.static-blue {
+    font-size: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-color: rgb(0, 13, 255);
+    border-right-color: rgb(0, 13, 255);
+    border-top-color: rgb(0, 13, 255);
+    border-bottom-color: rgb(0, 13, 255);
+    -unity-text-outline-width: 0;
+    width: auto;
+    text-shadow: 14px 4px 22px rgba(255, 0, 0, 0);
+    border-right-width: 4px;
+    border-left-width: 4px;
+    margin-left: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(255, 28, 211);
+    border-top-width: 7px;
+    margin-top: 38px;
+}
+
+.slider {
+    font-size: 71px;
+    -unity-font-style: bold;
+}
