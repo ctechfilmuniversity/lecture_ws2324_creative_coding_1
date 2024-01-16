@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "three": "^0.160.0",
+    "three-addons": "^1.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11"
+  }
+}
