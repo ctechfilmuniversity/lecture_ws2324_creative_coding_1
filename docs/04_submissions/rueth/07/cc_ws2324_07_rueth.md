@@ -95,10 +95,10 @@ For this task, I wanted to work a little more abstractly. In this scene I wanted
 
 (FYI: the human models are randomly selected from my harddrive)
 
-![Screenshot](Screenshot1.png)
-![Screenshot](Screenshot2.png)
-![Screenshot](Screenshot3.png)
-![Screenshot](Screenshot4.png)
+![Screenshot](Screenshot1.PNG)
+![Screenshot](Screenshot2.PNG)
+![Screenshot](Screenshot3.PNG)
+![Screenshot](Screenshot4.PNG)
 
 ## Learnings
 
