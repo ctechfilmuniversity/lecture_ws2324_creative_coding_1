@@ -116,7 +116,7 @@ window.addEventListener('mousemove', (event) => {
     let mouseY = 1-(event.clientY / window.innerHeight);
     
     mouseX = map_range(mouseX,0,1,0.125,0.875);
-    mouseY = map_range(mouseY,0,1,0.025,0.975);
+    mouseY = map_range(mouseY,0,1,0.1,0.9);
 
    
     material.uniforms.mouse.value = new THREE.Vector2(mouseX, mouseY);
