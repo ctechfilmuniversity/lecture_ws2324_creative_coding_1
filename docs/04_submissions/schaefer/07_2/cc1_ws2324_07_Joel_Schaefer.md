@@ -66,6 +66,7 @@ Read through the debugging script:
 
 Do you have any additional tips, tricks and tools that help with debugging?
 
+Can't name any to be honest. 
 
 ## Three.js
 
@@ -86,6 +87,12 @@ Submit all required source files (scene, assets, `package.json`, etc.) and add o
 ## Learnings
 
 Please summarize your personal learnings (text or bullet points - whatever you prefer). What was challenging for you in this session? How did you challenge yourself?
+
+- Node Server & NPM Workflow was completely new for me, setup was somehow challenging for me - missed some steps in the lesson 
+- Anonymous Function & Arrow functions we're also totally new for, the syntax was a bit challenging because bit unusual for me, but im happy to know it now - it almost immediately enabled me to understand the code of external js scripts, i was trying around with, more in depth 
+- i struggled a bit with finding a idea what i want to challenge myself with / what kind of three.js scene i want to create. I decided to check how webGl is setup in three.js materials, which wasnt really challenging, i was quite amazed how fast & easy it works inside the same js script. 
+- Coming up with some cool GlSL Code however was more challenging, i started with passing time, mousePos, aspectRatio to the shader and tried to make a circle around the mouse with a formula i lately seen in a touchdesigner GLSL tutorial. 
+
 
 
 ---

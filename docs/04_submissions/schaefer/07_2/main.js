@@ -10,8 +10,7 @@ import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 let video, vtexture;
 let camera, scene, renderer, stats;
 let PlaneGeometry;
-
-
+let aspectRatio; 
 const canvas = document.querySelector('canvas.webgl');
 
 
@@ -19,30 +18,46 @@ const canvas = document.querySelector('canvas.webgl');
 const material = new THREE.ShaderMaterial({
     uniforms: {
         mouse: { value: new THREE.Vector2() },
-        test: {value:0.5},
-        uTime: {value:0.0}
-        // Add other uniforms as needed
+        uColor: { value: new THREE.Vector3(0.5,0.5,0.0) },
+        uAspectRatio: {value:0.1},
+        uTime: {value:0.0},
+        uRadius: {value:0.01}
     },
     vertexShader: `
         varying vec2 vUv;
+    
 
         void main() {
+
             vUv = uv;
             gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
         }
     `,
     fragmentShader: `
         varying vec2 vUv;
-        uniform float test; 
+  
+
         uniform float uTime; 
-        void main() {
+        uniform vec2 mouse;
+        uniform vec3 uColor; 
+        uniform float uAspectRatio;
+        uniform float uRadius;
+	
+     
+
+
+         void main() {
             // Use UV coordinates to determine color
-            vec3 color = vec3(vUv, 0.5+test);
-            gl_FragColor = vec4(color, 1.0);
-        }
+            vec2 p = vUv - mouse;
+            p.x *= uAspectRatio;
+            vec3 color = vec3(vUv,0.2);
+
+            vec3 splat = exp(-dot(p,p) / uRadius) * color;
+
+            gl_FragColor = vec4(splat, 1.0);
+        } 
     `,
-    // You might need to adjust the following line based on your needs
-    // (like blending or depth testing)
+
     transparent: true
 });
 
@@ -68,7 +83,10 @@ function init() {
     camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
     camera.position.z = 5;
 
-    PlaneGeometry = new THREE.PlaneGeometry( 5, 5 );
+    PlaneGeometry = new THREE.PlaneGeometry( window.innerWidth*0.015,window.innerHeight*0.015 );
+
+    aspectRatio = window.innerWidth / window.innerHeight;
+    material.uniforms.uAspectRatio.value = aspectRatio;
 
     const mesh = new THREE.Mesh(PlaneGeometry , material);
 
@@ -86,19 +104,29 @@ function render() {
 function animate() {
     const time = Date.now() * 0.01;
     requestAnimationFrame( animate );
-    material.uniforms.test.value = math.sin(time)*0.5+0.5;
     material.uniforms.uTime.value = time;
-
+    //material.uniforms.uAspectRatio.value = aspectRatio;
     render();
-
 }
 
 
 
 window.addEventListener('mousemove', (event) => {
-    const mouseX = (event.clientX / window.innerWidth) - 0.5;
-    const mouseY = 0.5 - (event.clientY / window.innerHeight);
+    let mouseX = event.clientX / window.innerWidth ;
+    let mouseY = 1-(event.clientY / window.innerHeight);
+    
+    mouseX = map_range(mouseX,0,1,0.125,0.875);
+    mouseY = map_range(mouseY,0,1,0.025,0.975);
+
+   
     material.uniforms.mouse.value = new THREE.Vector2(mouseX, mouseY);
+
+    console.log(mouseX);
+    console.log(mouseY); 
+
 });
 
 
+function map_range(value, low1, high1, low2, high2) {
+    return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
+}
