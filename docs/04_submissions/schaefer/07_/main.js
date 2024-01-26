@@ -79,11 +79,14 @@ function init() {
         canvas: canvas
     })
     renderer.setSize( window.innerWidth, window.innerHeight );
+    camera = new THREE.OrthographicCamera( window.innerWidth / - 2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / - 2, 0.1, 1000 );
+   
+    //camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+    camera.position.z = 1;
 
-    camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-    camera.position.z = 5;
+    //PlaneGeometry = new THREE.PlaneGeometry( window.innerWidth*0.015,window.innerHeight*0.015 );
+    PlaneGeometry = new THREE.PlaneGeometry( window.innerWidth,window.innerHeight);
 
-    PlaneGeometry = new THREE.PlaneGeometry( window.innerWidth*0.015,window.innerHeight*0.015 );
 
     aspectRatio = window.innerWidth / window.innerHeight;
     material.uniforms.uAspectRatio.value = aspectRatio;
@@ -115,8 +118,8 @@ window.addEventListener('mousemove', (event) => {
     let mouseX = event.clientX / window.innerWidth ;
     let mouseY = 1-(event.clientY / window.innerHeight);
     
-    mouseX = map_range(mouseX,0,1,0.125,0.875);
-    mouseY = map_range(mouseY,0,1,0.1,0.9);
+    //mouseX = map_range(mouseX,0,1,0.125,0.875);
+    //mouseY = map_range(mouseY,0,1,0.1,0.9);
 
    
     material.uniforms.mouse.value = new THREE.Vector2(mouseX, mouseY);
