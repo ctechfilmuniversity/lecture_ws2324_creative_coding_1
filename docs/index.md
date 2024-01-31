@@ -62,26 +62,26 @@ With this course, you will
 
 ## Topics
 
-| Session | Topic            | Subtopics            | Tech                     | Libraries / Tools  |
-| ------- | ---------------- | -------------------- | ------------------------ | ------------------ |
-| 1       | Motivation       | Creative Coding      |                          |                    |
-|         |                  | Setup                | Material Management      | Git, GitHub        |
-|         |                  |                      | Markdown                 | Visual Studio Code |
-| 2       | Emergence        | 2D Design            | Development Environments | p5                 |
-|         |                  | Basic Interaction    |                          |                    |
-| 3       | Instructions     | Algorithmic Thinking | Programming Overview     | p5                 |
-| 4       | Connection       | The Web              | html, css, js            |                    |
-|         |                  | Going Online         |                          |                    |
-| 5       | Still Connecting |                      | Local Webserver          |                    |
-|         |                  |                      |                          |                    |
-| 6       |                  |                      |                          |                    |
-|         |                  |                      |                          |                    |
-| 7       |                  |                      |                          |                    |
-|         |                  |                      |                          |                    |
-| 8       |                  |                      |                          |                    |
-|         |                  |                      |                          |                    |
-| 9       |                  |                      |                          |                    |
-|         |                  |                      |                          |                    |
+| Session | Topic            | Subtopics              | Tech                       | Libraries / Tools  |
+| ------- | ---------------- | ---------------------- | -------------------------- | ------------------ |
+| 1       | Motivation       | Creative Coding        |                            |                    |
+|         |                  | Setup                  | Material management        | Git, GitHub        |
+|         |                  |                        | Markdown                   | Visual Studio Code |
+| 2       | Emergence        | 2D Design              | Development environments   | p5                 |
+|         |                  | Basic Interaction      |                            |                    |
+| 3       | Instructions     | Algorithmic Thinking   | Programming overview       | p5                 |
+| 4       | Connection       | The Web                | html, css, js              |                    |
+|         |                  | Going Online           |                            |                    |
+| 5       | Still Connecting | Algorithms             | Local Webserver            |                    |
+|         |                  |                        | Development workflow       |                    |
+| 6       | Space            | 3D                     |                            | three.js           |
+|         |                  | Gui                    |                            |                    |
+| 7       | Asynchronism     | Higher Order Functions | Function notations         |                    |
+|         |                  |                        | Local Package Installation | Node, npm, vite    |
+| 8       | Systems          | Software               | Deployment                 | Vercel             |
+|         |                  | Usefulness             |                            | React              |
+| 9       |                  |                        |                            |                    |
+|         |                  |                        |                            |                    |
 
 Please note that topics are subject to change!
 

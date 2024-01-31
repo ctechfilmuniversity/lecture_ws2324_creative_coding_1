@@ -16,18 +16,18 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  \| Film University Babe
 Please complete this session by Jan. 16. Completing the session should take < 8h (4h CC1 + 4h TABG). 
 
 
-- [Creative Coding I](#creative-coding-i)
-- [Session 07 - Asynchronism](#session-07---asynchronism)
-  - [JavaScript Functions \& Asynchronism](#javascript-functions--asynchronism)
-    - [Task 07.01](#task-0701)
-    - [Task 07.02 - Practice Higher Order Functions and Using the Browser Console](#task-0702---practice-higher-order-functions-and-using-the-browser-console)
-  - [Debugging](#debugging)
-    - [Task 07.03 - Reading](#task-0703---reading)
-    - [Task 07.04 - Level 2](#task-0704---level-2)
-  - [Three.js](#threejs)
-    - [Task 07.06 - Local Installation](#task-0706---local-installation)
-    - [Task 07.07 - Your Own Scene](#task-0707---your-own-scene)
-  - [Learnings](#learnings)
+* [Creative Coding I](#creative-coding-i)
+* [Session 07 - Asynchronism](#session-07---asynchronism)
+    * [JavaScript Functions \& Asynchronism](#javascript-functions--asynchronism)
+        * [Task 07.01](#task-0701)
+        * [Task 07.02 - Practice Higher Order Functions and Using the Browser Console](#task-0702---practice-higher-order-functions-and-using-the-browser-console)
+    * [Debugging](#debugging)
+        * [Task 07.03 - Reading](#task-0703---reading)
+        * [Task 07.04 - Level 2](#task-0704---level-2)
+    * [Three.js](#threejs)
+        * [Task 07.06 - Local Installation](#task-0706---local-installation)
+        * [Task 07.07 - Your Own Scene](#task-0707---your-own-scene)
+    * [Learnings](#learnings)
 
 
 

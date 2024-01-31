@@ -25,4 +25,6 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 * [Session 06 - Space](06_space/README.md)
     * [Code](06_space/code/)
 * [Session 07 - Asynchronism](07_asynchronism/README.md)
-    * [Code](07_asynchronism/code/)
+    * [Code](07_asynchronism/code/cc1_ws2324_functions.js)
+    * [Submissions - Your Own Scene](07_asynchronism/07_submissions_07_yourscene.md)
+* [Session 08 - Systems](08_systems/README.md)
