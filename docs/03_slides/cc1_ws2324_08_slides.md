@@ -292,6 +292,23 @@ function setup()
 }
 ```
 
+---
+.header[Higher Order Functions]
+
+## Arrow Functions
+
+```js
+... (param1, param2) =>
+{
+    // do something
+} ...
+```
+
+
+???
+.task[COMMENT:]  
+
+* An arrow comes after the list of parameters and is followed by the function’s body. 
 
 
 
@@ -777,6 +794,8 @@ Use a hosting platform
 
 * It has a free *hobbyists, students, and indie hackers* hosting option.
 * Render is a unified cloud to build and run all your apps and websites [...] and auto deploys from Git.
+* https://fridgepoetry-online.onrender.com/
+
 
 
 ---
@@ -1503,7 +1522,7 @@ template:inverse
 
 --
 
-> Software is a set of programs or sequence of instructions that allows the users to perform a well-defined function or some specified task
+> Software is a set of programs or sequence of instructions that allows the users to perform a well-defined function or some specified task.
 
 
 .footnote[[[javatpoint]](https://www.javatpoint.com/what-is-software)]
@@ -1614,7 +1633,20 @@ https://www.codementor.io/learn-development/what-makes-good-software-architectur
 
 There are various formal descriptions possibilities for software architecture and larger systems, e.g. with the Unified Modeling Language (UML).
 
-<br >
+---
+.header[Software Architecture]
+
+## UML Activity Diagram
+
+<img src="../02_scripts/img/software/uml_activity_diagram_01.png" alt="uml_activity_diagram_01" style="width:60%;"> 
+
+.footnote[[[edrawsoft](https://www.edrawsoft.com/what-is-uml-diagram.html)]]
+
+
+---
+.header[Software Architecture]
+
+## UML
 
 UML is a standard notation for many types of diagrams, roughly divided into three groups:
 
@@ -1632,14 +1664,6 @@ UML is a standard notation for many types of diagrams, roughly divided into thre
 * Behavior diagrams represent the dynamic aspect of the system. It emphasizes what must happen in the system being modeled. Since behavior diagrams illustrate the behavior of a system, they are used extensively to describe the functionality of software systems. As an example, the activity diagram describes the business and operational step-by-step activities of the components in a system. 
 * Interaction diagrams, a subset of behavior diagrams, emphasize the flow of control and data among the things in the system being modeled. For example, the sequence diagram shows how objects communicate with each other regarding a sequence of messages.
 
----
-.header[Software Architecture]
-
-## UML Activity Diagram
-
-<img src="../02_scripts/img/software/uml_activity_diagram_01.png" alt="uml_activity_diagram_01" style="width:60%;"> 
-
-.footnote[[[edrawsoft](https://www.edrawsoft.com/what-is-uml-diagram.html)]]
 
 ---
 
@@ -1664,7 +1688,7 @@ Get in the habit of "drawing" your algorithms and systems!
 
 ## Software
 
-In totfal, software development is the process of 
+In total, software development is the process of 
 
 --
 
@@ -1863,6 +1887,14 @@ template:inverse
 
 ### Well, almost...
 
+
+---
+.header[Creative Coding I | Summary]
+
+| Session | Topic      | Subtopics       | Tech                | Libraries / Tools  |
+| ------- | ---------- | --------------- | ------------------- | ------------------ |
+
+
 ---
 .header[Creative Coding I | Summary]
 
@@ -2006,9 +2038,8 @@ template:inverse
 | 7       | Asynchronism     | Higher Order Functions | Function notations         |                    |
 |         |                  |                        | Local Package Installation | Node, npm, vite    |
 | 8       | Systems          | Software               | Deployment                 | Vercel             |
-|         |                  | Usefulness             |                            | React              |
+|         |                  | Usefulness             |                   | ~~React~~              |
 | ~~9~~   | ~~Liveness~~     | ~~Performance Spaces~~ |                            | ~~Modzilla Hubs~~  |
-
 
 
 
@@ -2089,6 +2120,9 @@ template: inverse
 
 --
 * Build systems and software
+
+--
+* Draw diagrams
 
 
 
