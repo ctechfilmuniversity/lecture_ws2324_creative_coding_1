@@ -2041,7 +2041,27 @@ template:inverse
 |         |                  | Usefulness             |                   | ~~React~~              |
 | ~~9~~   | ~~Liveness~~     | ~~Performance Spaces~~ |                            | ~~Modzilla Hubs~~  |
 
+---
+.header[Creative Coding I]
 
+## Learning Objectives
+
+With this course, you will 
+
+--
+* advance your ability to write code,
+
+--
+* advance your ability to conceptualize and design,
+
+--
+* acquire fundamental knowledge of web technologies,
+
+--
+* use software development in a creative context, and
+
+--
+* implement specific design goals.
 
 
 ---
