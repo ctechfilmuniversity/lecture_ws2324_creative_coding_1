@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Roly Poly</title>
+
+      <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+      <div class="button-container">
+            <button id="myButton">About</button>
+      </div>
+
+      </div>
+      <div id="overlay" style="display:none;">
+            <div class="overlay-content">
+
+
+                  <p>PUNCH ME! This fun little physics experiment is inspired by the classic children's toy known as
+                        <a href="https://en.wikipedia.org/wiki/Roly-poly_toy" target="_blank">roly-poly</a>. No matter
+                        how hard you try
+                        to knock this little guy down, it always stands back up!
+                        <br />
+                        <br />
+                        This Three.js project integrates hand-tracking with the CANNON physics engine and features
+                        hand-painted textures. I had a lot of fun creating this for the CC1 course of the <a
+                              href="https://www.instagram.com/ctech.filmuniversity/" target="_blank">CTech</a> program.
+                  </p>
+                  <button id="closeButton">Close</button>
+            </div>
+      </div>
+
+      <video id="input_video" style="display: none;"></video>
+      <script type="module" src="/main.js"></script>
+      <link rel="stylesheet" href="/style.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+      <script>
+            document.getElementById('myButton').addEventListener('click', function () {
+                  document.getElementById('overlay').style.display = 'block';
+            });
+
+            document.getElementById('closeButton').addEventListener('click', function () {
+                  document.getElementById('overlay').style.display = 'none';
+            });
+      </script>
+
+</body>
+
+</html>
