@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>THREE JS SCENE</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: black;
+            }
+            #startButton {
+                font-size: 30px;
+                padding: 10px 20px;
+                background-color: #007BFF;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                z-index: 1; 
+            }
+            #loading {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 2em;
+                color: white;
+                display: none;
+            }
+        </style>
+		<meta charset="utf-8">
+		<meta name="viewpoart" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+	</head>
+<body>
+
+	<div id="overlay">
+		<button id="startButton">Play</button>
+	</div>
+    <div id="loading">Loading...</div>
+	<div id="container"></div>
+	<div id="info">
+	</div>
+	<script type="module" src="./main.js"></script>
+	</body>
+</html>
