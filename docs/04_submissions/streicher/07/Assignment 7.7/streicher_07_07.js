@@ -1,11 +1,12 @@
 import * as THREE from 'three';
-import { Stats } from 'three-addons';
-import { GUI } from 'three-addons';
-import { OrbitControls } from 'three-addons';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import Stats from 'three/examples/jsm/libs/stats.module'
+import { GUI } from 'dat.gui'
 
 let container, stats, gui, guiStatsEl;
 let camera, controls, scene, renderer, geometry, material, envTexture;
 
+document.addEventListener('DOMContentLoaded', (event) => {
 
 const Method = {
     INSTANCED: 'INSTANCED',
@@ -53,12 +54,9 @@ const imgs = [
     `./textures/py.jpg`,  `./textures/ny.jpg`,
     `./textures/pz.jpg`,  `./textures/nz.jpg`
 ];
-
 const cubeLoader = new THREE.CubeTextureLoader();
 cubeLoader.load(imgs, (texture) => {
     envTexture = texture;
-
-    // Call initMesh after the texture is loaded
     initMesh();
 });
 
@@ -234,7 +232,7 @@ function init() {
     guiStatsEl = document.createElement( 'div' );
     guiStatsEl.classList.add( 'gui-stats' );
 
-    perfFolder.$children.appendChild( guiStatsEl );
+    perfFolder.__ul.appendChild(guiStatsEl);
     perfFolder.open();
 
     gui.hide();
@@ -295,3 +293,5 @@ function formatBytes( bytes, decimals ) {
     const i = Math.floor( Math.log( bytes ) / Math.log( k ) );
     return parseFloat( ( bytes / Math.pow( k, i ) ).toFixed( dm ) ) + ' ' + sizes[ i ];
 }
+
+});
