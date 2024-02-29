@@ -66,6 +66,8 @@ There were still a few problems that I wasn't able to solve in time:
 
 - online deployment
 
+
+Link to source code and project folder (just in case): https://drive.google.com/drive/folders/1mDW3UWZRrk7vsYsyEa93RB91YzVDwNG1?usp=sharing
 ### Sources:
 
 I modelled many things myself or altered models that i got from these sources:
