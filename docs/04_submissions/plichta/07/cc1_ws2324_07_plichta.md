@@ -39,16 +39,23 @@ As submission, I require
 
 
 ### Description:
-  My idea was to create a virtual "directional microphone" in AR that allows the user to pick up 1 sec fragments of a song I composed. Scanning all fragments can decide to either listen to the whole song in its' original linear fashion or dive into a small segment and deconstruct its elements in a non-linear way.
- 
-  The sound fragments are distributed evenly in the form of simple cubes. Each cube carries a small layer of the song. It needs an average of 5-15 cubes per second to hear all elements of the song at that particular second. So there are hundreds of cubes for the whole song. 
+My idea was to create a virtual "directional microphone" in AR that allows the user to pick up 1 sec fragments of a song I composed. Scanning all fragments the user can decide to either listen to the whole song in its' original linear fashion or dive into a small segment and deconstruct its elements in a non-linear way.
 
-  The AR aspect allows the user to hear the sounds spatial as each fragment will be louder/quieter depending on the distance. The directional microphone allows to scan the cubes from far away and up close and even group them together in a non-linear way.
+The sound fragments are distributed evenly in the form of simple cubes that each carry a small layer of the song at that second. It needs an average of 5-15 cubes per second to hear all elements of the song at a particular second. This means the song consists of hundreds of cubes.
 
-  The user can also find some "natural" sounds hidden sounds in the village below the floating cubes.  
+The layout of the cubes in 3D space follows the structure of the song that I projected on a grid. The grid spaces itself in instruments, frequencies and time.
 
-** What I did for CC for this project
-As discussed earlier the project had its roots in the TBAG class. In the TBAG class the project underwent a few iterations and experiments. The final version is missing some of the features that I kicked out again to stay in a managable scope. My main focus for CC was to implenent the looping behaviour of the sounds when they are selected. I spent most of my time, more or less 3 days, figuring out why my system didn't behave like I hoped it to do and debugging it. While this was tremendiously frustrating I learned a lot about how to approach implementing what was a larger and complicated feature to me. Another feature was to align the cubes in a circle while maintaining their original grid layout. I failed here but I think understood the problem in the end, but ran out of time to implement it. I recorded a [video to explain it in more detail](https://www.notion.so/artbymarek/Playhead-900159110863482b8344ccd50d9a4f9a?pvs=4
+The AR aspect allows the user to hear the sounds spatially as each fragment will be louder/quieter depending on the distance. The directional microphone allows to scan the cubes from any distance and group them together into new clusters in a non-linear way.
+
+The user can also find some "natural" sounds hidden in the village below the floating cubes. 
+
+#### What I did for CC for this project.
+As discussed earlier the project had its roots in the TBAG class. There the project underwent a few iterations and experiments. The final version is missing some of the features that I kicked out again to stay for the time being in a manageable scope.
+
+My main focus for CC was to implement the looping behaviour of the sounds when they are selected. I spent most of my time, more or less 3 days, just figuring out problems with the design of my code. My looping system didn't behave like I hoped it would. While this was very frustrating I learned a lot about how to approach implementing what was a larger and complicated feature to me. Next time I would go very different about it and I wish to learn more about planing the structure of a code ahead of time.
+
+Another feature I implemented was to align the cubes in a circle while maintaining their original grid layout. I failed here but I think I understood the problem in the end, but ran out of time to implement it. 
+I recorded a [video to explain the features I implemented in more detail](https://www.notion.so/artbymarek/Playhead-900159110863482b8344ccd50d9a4f9a?pvs=4
 ):
 
 ### Images
